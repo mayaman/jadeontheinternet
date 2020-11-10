@@ -51,4 +51,6 @@ a:hover, a:active { background-image: linear-gradient(to bottom, transparent 0.1
 
 .post-data-list li:last-child:after { content: ""; }
 
+summary { outline-color: none; }
+
 /*# sourceMappingURL=styles.css.map */

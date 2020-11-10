@@ -59,3 +59,7 @@ a:active {
 .post-data-list li:last-child:after {
   content: "";
 }
+
+summary {
+  outline-color: none; // TO CHANGE WITH JAVASCRIPT
+}
