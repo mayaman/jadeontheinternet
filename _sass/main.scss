@@ -1,0 +1,44 @@
+/*~*~*~*~*~*~*~*~*~*~*
+ * 🦋 MAIN
+ *~*~*~*~*~*~*~*~*~*~*/
+body {
+  background-image: url("https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif");
+  background-attachment: fixed;
+  color: black;
+}
+
+main {
+  margin: 50px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+a.current {
+  color: lime;
+}
+
+a {
+  color: black;
+}
+
+::selection {
+  background: #c4a9fc;
+}
+
+a:hover,
+a:active {
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0.19em,
+    #c4a9fc 0.19em,
+    #c4a9fc 0.91em,
+    transparent 0.91em
+  );
+}

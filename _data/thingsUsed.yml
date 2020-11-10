@@ -1,0 +1,186 @@
+- name: Butterfly necklace
+  id: 0
+  cost: 30.00
+  brand: N/A
+  from: Awoke Vintage
+  new: true
+  category: Accessories
+  link:
+  reference:
+  notes: Part of Jade's staple look, she wears this whenever she appears on screen.
+
+- name: Gold-plated hoop earrings
+  id: 1
+  cost: 15.50
+  brand: N/A
+  from: SLOPE VINTAGE
+  new: true
+  category: Accessories
+  link:
+  reference:
+  notes: To match the necklace.
+
+- name: Black long sleeve top
+  id: 2
+  cost: 15.95
+  brand: And Other Stories
+  from: Beacon's Closet
+  new: false
+  category: Clothing
+  link:
+  reference:
+  notes: A nicer top, kind of cropped, for the non oversized t-shirt/sweatshirt days.
+
+- name: Black sweatpants
+  id: 3
+  cost: 10.95
+  brand: N/A
+  from: Beacon's Closet
+  new: false
+  category: Clothing
+  link:
+  reference:
+  notes: Sweatpants are a TikTok classic... feel like they are emblematic of the way that TikTok varies from Instagram. These ones I happened to find thrifting, but will probably look online for some that are closer to the true TikTok sweat aesthetic.
+
+- name: 16HR Camo Concealer
+  id: 4
+  cost: 6.00
+  brand: e.l.f.
+  from: Target
+  new: true
+  category: Makeup
+  link:
+  reference: https://brunchandgloss.com/tiktok-made-me-buy-it-e-l-f-concealer/
+  notes: This was recommended in a lot of "TikTok made me buy it" makeup videos... apparently a good dupe for popular Tarte concealer that's way more expensive.
+
+- name: Eyelash curler
+  id: 5
+  cost: 4.99
+  brand: Revlon
+  from: Local drugstore
+  new: true
+  category: Makeup
+  link:
+  reference:
+  notes:
+
+- name: Voluminous Lash Paradise Mascara
+  id: 6
+  cost: 9.99
+  brand: L'Oréal
+  from: Target
+  new: true
+  category: Makeup
+  link:
+  reference:
+  notes: In this one viral TikTok mascara hack video, THIS is the mascara she uses.
+
+- name: Cloud paint cream blush (Dusk)
+  id: 7
+  cost: 18.00
+  brand: Glossier
+  from: Glossier NYC store
+  new: true
+  category: Makeup
+  link:
+  reference:
+  notes: In this one viral TikTok mascara hack video, THIS is the mascara she uses.
+
+- name: Baked highlighter (Moonlight pearls)
+  id: 8
+  cost: 4.00
+  brand: e.l.f
+  from: Target
+  new: true
+  category: Makeup
+  link:
+  reference:
+  notes: Everyone on TikTok looks glossy and glazed!!! I think highlighter is key?
+
+- name: Powder brush
+  id: 9
+  cost: 6.00
+  brand: e.l.f
+  from: Target
+  new: true
+  category: Makeup
+  link:
+  reference:
+  notes: The highlighter packaging said to apply with a poweder brush so I bought this.
+
+- name: Lip lacquer (Wild rose)
+  id: 10
+  cost: 3.00
+  brand: e.l.f
+  from: Target
+  new: true
+  category: Makeup
+  link:
+  reference:
+  notes: Looked pink and fun and was cheap.
+
+- name: Black tank top
+  id: 11
+  cost: 3.99
+  brand: N/A
+  from: Slope Vintage
+  new: false
+  category: Clothing
+  link:
+  reference:
+  notes: Pretty basic... feels like something I could get away with wearing more than once without it begin obvious?
+
+- name: Handmade pearl choker necklace
+  id: 12
+  cost: 8.00
+  brand: N/A
+  from: Depop (@gchillingworth)
+  new: true
+  category: Accessories
+  link:
+  reference:
+  notes: These little dainty beaded chokers seem to be popular. I like buying from Depop sellers who make them :-)
+
+- name: Black leggings
+  id: 13
+  cost: 128.00
+  brand: lululemon
+  from: lululemon store
+  new: true
+  category: Clothing
+  link:
+  reference: https://www.teenvogue.com/story/tiktok-viral-fashion-brands
+  notes: SO EXPENSIVE WTF
+
+- name: Oversized quarter zip floral sweatshirt
+  id: 14
+  cost: 17.95
+  brand: N/A
+  from: Beacon's Closet
+  new: true
+  category: Clothing
+  link:
+  reference: https://www.shape.com/lifestyle/fashion/oversized-sweatshirt-tiktok
+  notes: Lots of girls wear these very oversized vintage looking sweatshirts. Found this one and thought it was on brand. My boyfriend thought it was actually mine. I don't think it's far off from something I would really wear at all.
+
+- name: Bright pink cardigan
+  id: 15
+  cost: 16.95
+  brand: Zara
+  from: Beacon's Closet
+  new: false
+  category: Clothing
+  link:
+  reference:
+  notes: This color really spoke to Jade.
+
+- name: Tie dye t-shirt
+  id: 16
+  cost: 12.50
+  brand: N/A
+  from: Slope Vintage
+  new: false
+  category: Clothing
+  link:
+  reference: https://www.insider.com/diy-tie-dye-at-home-tutorials-youtube-tik-tok-quarantine-2020-4
+  notes: Tie dye is essential tiktok fashion.
