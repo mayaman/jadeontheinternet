@@ -36,26 +36,28 @@
             {% endfor %}
         </ul>
     </div>
+    <!-- THINGS USED BY NAME TEST -->
     <div class="post-data things-used">
         <a target="_blank"
             href="https://docs.google.com/spreadsheets/d/1viVgQJUks6DZ6xgkQt2jRjblfiRyCaIi9NMWhvewjoQ/view"><span
                 class="post-key">Things
                 used:</span></a>
         <ul class="post-data-list things-list">
-            {% for index in page.thingsUsedIndexes %}
-            {% assign thing = site.data.thingsUsed[index]  %}
+            {% for currentThing in page.thingsUsed %}
+            {% assign thing = site.data.thingsUsed[currentThing.id]  %}
             <li><data value="{{ thingId }}">{{ thing.name }}</data>
             </li>
             {% endfor %}
         </ul>
     </div>
+    <!-- NAME -->
     <div class="post-data total-cost-this-video">
         <a target="_blank"
             href="https://docs.google.com/spreadsheets/d/1viVgQJUks6DZ6xgkQt2jRjblfiRyCaIi9NMWhvewjoQ/view">
             <span class="post-key">Total cost of things used in this video:</span></a>
         {% assign total = 0 %}
-        {% for index in page.thingsUsedIndexes %}
-        {% assign thing = site.data.thingsUsed[index]  %}
+        {% for currentThing in page.thingsUsed %}
+        {% assign thing = site.data.thingsUsed[currentThing.id]  %}
         {% assign total = total | plus: thing.cost %}
         {% endfor %}
         ${{ total }}
