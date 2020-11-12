@@ -1,36 +1,20 @@
 ---
-# front matter tells Jekyll to process Liquid
 layout: default
-title: WHO IS JADE
+title: ON THE INTERNET
+id: blog
 ---
-<main>
-    <section>
-        <span class="jade-is">
-            <i>Jade on the Internet</i>
-            (<a target="_blank" href="https://www.tiktok.com/@jadeontheinternet">@jadeontheinternet</a>) is an
-            ongoing project and TikTok-based
-            performance by <a target="_blank" href="https://mayaontheinter.net">Maya
-                Man</a> focused
-            on the cultivation, presentation, and
-            monetization of
-            femme identity on the Internet.
-        </span>
-        <span class="jade-is">Jade exists on screen and on screen only.</span>
-        <span class="jade-is">Jade reflects what she sees rewarded in the online space she inhabits.</span>
-        <span class="jade-is">Jade does not represent any one IRL person, but instead acts as a generalization of
-            popular existing online performances of feminine identity.</span>
-        <span class="jade-is">
-            Jade has internalized that in her world, bigger numbers are better.
-        </span>
-        <span class="jade-is">
-            Jade is exactly who you think she is... who do you think she is? <a target="_blank"
-                href="mailto:jadeontheinternet@gmail.com?subject=I%20think%20Jade%20is...">Send an email to
-                respond...</a>
-        </span>
-        <span class="jade-is">Jade and this website are perpetually under construction, constantly evolving to keep
-            up with perceived demands.</span>
-        <span class="jade-is link"><a href="./bookshelf.html">BOOKSHELF</a></span>
-        <span class="jade-is link"><a href="./commentgallery.html">COMMENT GALLERY</a></span>
 
-    </section>
-</main>
+<!-- <ul>
+    {% for post in site.posts %}
+    <li>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {{ post.excerpt }}
+    </li>
+    {{post.article}}
+    {% endfor %}
+</ul> -->
+
+
+{% for post in site.posts %}
+{{ post }}
+{% endfor %}

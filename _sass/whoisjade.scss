@@ -16,13 +16,18 @@
 .link {
   position: absolute;
   color: black;
-  max-width: 500px;
+  // max-width: 500px;
   display: inline-block;
   margin: 25px 0px;
   padding: 25px;
-  background-image: url("https://media.giphy.com/media/1TpGKApbHmkZa/giphy.gif");
   background-size: cover;
   border: 3px solid black;
+}
+
+.link a {
+  background: white;
+  font-size: 2em;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {

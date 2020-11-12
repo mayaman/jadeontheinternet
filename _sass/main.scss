@@ -1,9 +1,10 @@
 /*~*~*~*~*~*~*~*~*~*~*
- * 🦋 MAIN
+ * 🦋 GLOBAL
  *~*~*~*~*~*~*~*~*~*~*/
 body {
-  background-image: url("https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif");
-  background-attachment: fixed;
+  // background-image: url("https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif");
+  // background-attachment: fixed;
+  background-color: #c4a9fc;
   color: black;
 }
 
@@ -41,4 +42,17 @@ a:active {
     #c4a9fc 0.91em,
     transparent 0.91em
   );
+}
+
+.link#bookshelf {
+  background-image: url("https://media.giphy.com/media/1TpGKApbHmkZa/giphy.gif");
+}
+
+.link#commentgallery {
+  // background-image: url("https://media.giphy.com/media/1TpGKApbHmkZa/giphy.gif");
+  background-image: url("https://media.giphy.com/media/J2P5Izk0DJFbG/giphy.gif");
+}
+
+.link#blog {
+  background-image: url("https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif");
 }

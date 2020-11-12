@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/*~*~*~*~*~*~*~*~*~*~* 🦋 MAIN ~*~*~*~*~*~*~*~*~*~*/
-body { background-image: url("https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif"); background-attachment: fixed; color: black; }
+/*~*~*~*~*~*~*~*~*~*~* 🦋 GLOBAL ~*~*~*~*~*~*~*~*~*~*/
+body { background-color: #c4a9fc; color: black; }
 
 main { margin: 50px 0px; }
 
@@ -14,6 +14,12 @@ a { color: black; }
 
 a:hover, a:active { background-image: linear-gradient(to bottom, transparent 0.19em, #c4a9fc 0.19em, #c4a9fc 0.91em, transparent 0.91em); }
 
+#bookshelf.link { background-image: url("https://media.giphy.com/media/1TpGKApbHmkZa/giphy.gif"); }
+
+#commentgallery.link { background-image: url("https://media.giphy.com/media/J2P5Izk0DJFbG/giphy.gif"); }
+
+#blog.link { background-image: url("https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif"); }
+
 /*~*~*~*~*~*~*~*~*~*~* 🦋 NAV ~*~*~*~*~*~*~*~*~*~*/
 nav { display: flex; justify-content: space-between; font-size: 1.25em; }
 
@@ -24,12 +30,14 @@ nav { display: flex; justify-content: space-between; font-size: 1.25em; }
 /*~*~*~*~*~*~*~*~*~*~* 🦋 WHO IS JADE ~*~*~*~*~*~*~*~*~*~*/
 .jade-is { position: absolute; color: black; max-width: 500px; visibility: hidden; margin: 25px 0px; padding: 25px; background: white; border: 3px solid black; }
 
-.link { position: absolute; color: black; max-width: 500px; display: inline-block; margin: 25px 0px; padding: 25px; background-image: url("https://media.giphy.com/media/1TpGKApbHmkZa/giphy.gif"); background-size: cover; border: 3px solid black; }
+.link { position: absolute; color: black; display: inline-block; margin: 25px 0px; padding: 25px; background-size: cover; border: 3px solid black; }
+
+.link a { background: white; font-size: 2em; text-align: center; }
 
 @media only screen and (max-width: 768px) { .jade-is, .link { position: inherit; max-width: 100%; } }
 
 /*~*~*~*~*~*~*~*~*~*~* 🦋 ON THE INTERNET  ~*~*~*~*~*~*~*~*~*~*/
-article { background: white; border: 3px solid black; padding: 25px; margin: 0px 0px 25px 0px; max-width: 750px; }
+article { background: white; border: 3px solid black; padding: 25px; margin: 0px auto 25px auto; max-width: 750px; display: block; }
 
 .post-header { margin-bottom: 15px; }
 
