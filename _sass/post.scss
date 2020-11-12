@@ -6,9 +6,15 @@ article {
   background: white;
   border: 3px solid black;
   padding: 25px;
-  margin: 0px auto 25px auto;
+  margin: 0px 0px 25px 0px;
   max-width: 750px;
   display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  article {
+    max-width: 100%;
+  }
 }
 
 .post-container {

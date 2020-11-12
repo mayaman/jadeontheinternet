@@ -4,6 +4,10 @@ title: ON THE INTERNET
 id: blog
 ---
 
+{% for post in site.posts %}
+{{ post }}
+{% endfor %}
+
 <!-- <ul>
     {% for post in site.posts %}
     <li>
@@ -13,8 +17,3 @@ id: blog
     {{post.article}}
     {% endfor %}
 </ul> -->
-
-
-{% for post in site.posts %}
-{{ post }}
-{% endfor %}
