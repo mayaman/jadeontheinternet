@@ -59,7 +59,7 @@
             {% assign total = 0 %}
             {% for currentThing in page.thingsUsed %}
             {% assign thing = site.data.thingsUsed[currentThing.id]  %}
-            {% assign total = total | plus: thing.cost %}
+            {% assign total = total | plus: thing.listprice %}
             {% endfor %}
             ${{ total }}
         </div>
@@ -70,7 +70,7 @@
             {% assign total = 0 %}
             {% assign thingsLimit = page.thingsUsedToDateLimit | plus: 1 %}
             {% for thing in site.data.thingsUsed limit:thingsLimit %}
-            {% assign total = total | plus: thing.cost %}
+            {% assign total = total | plus: thing.listprice %}
             {% endfor %}
             ${{ total }}
         </div>

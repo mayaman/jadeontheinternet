@@ -1,5 +1,6 @@
 - name: Butterfly necklace
   id: 0
+  listprice: 30.00
   cost: 30.00
   brand: N/A
   from: Awoke Vintage
@@ -11,6 +12,7 @@
 
 - name: Gold-plated hoop earrings
   id: 1
+  listprice: 15.50
   cost: 15.50
   brand: N/A
   from: SLOPE VINTAGE
@@ -22,17 +24,19 @@
 
 - name: Black long sleeve top
   id: 2
+  listprice: 39.90
   cost: 15.95
   brand: And Other Stories
   from: Beacon's Closet
   new: false
   category: Clothing
-  link:
+  link: https://www.stories.com/en_usd/clothing/tops/tops-t-shirts/product.soft-fitted-long-sleeve-top-black.0906521002.html
   reference:
   notes: A nicer top, kind of cropped, for the non oversized t-shirt/sweatshirt days.
 
 - name: Black sweatpants
   id: 3
+  listprice: 10.95
   cost: 10.95
   brand: N/A
   from: Beacon's Closet
@@ -44,6 +48,7 @@
 
 - name: 16HR Camo Concealer
   id: 4
+  listprice: 6.00
   cost: 6.00
   brand: e.l.f.
   from: Target
@@ -55,6 +60,7 @@
 
 - name: Eyelash curler
   id: 5
+  listprice: 4.99
   cost: 4.99
   brand: Revlon
   from: Local drugstore
@@ -67,6 +73,7 @@
 - name: Voluminous Lash Paradise Mascara
   id: 6
   cost: 9.99
+  listprice: 9.99
   brand: L'Oréal
   from: Target
   new: true
@@ -77,50 +84,55 @@
 
 - name: Cloud paint cream blush (Dusk)
   id: 7
+  listprice: 18.00
   cost: 18.00
   brand: Glossier
   from: Glossier NYC store
   new: true
   category: Makeup
-  link:
+  link: https://www.glossier.com/products/cloud-paint
   reference:
   notes: In this one viral TikTok mascara hack video, THIS is the mascara she uses.
 
 - name: Baked highlighter (Moonlight pearls)
   id: 8
+  listprice: 4.00
   cost: 4.00
   brand: e.l.f
   from: Target
   new: true
   category: Makeup
-  link:
+  link: https://www.elfcosmetics.com/baked-highlighter/300014.html
   reference:
   notes: Everyone on TikTok looks glossy and glazed!!! I think highlighter is key?
 
 - name: Powder brush
   id: 9
+  listprice: 6.00
   cost: 6.00
   brand: e.l.f
   from: Target
   new: true
   category: Makeup
-  link:
+  link: https://www.target.com/p/e-l-f-powder-brush/-/A-13586147
   reference:
   notes: The highlighter packaging said to apply with a poweder brush so I bought this.
 
 - name: Lip lacquer (Wild rose)
   id: 10
+  listprice: 3.00
   cost: 3.00
   brand: e.l.f
   from: Target
   new: true
   category: Makeup
-  link:
+  link: https://www.elfcosmetics.com/lip-lacquer/400030.html
   reference:
   notes: Looked pink and fun and was cheap.
 
 - name: Black tank top
   id: 11
+  listprice: 3.99
   cost: 3.99
   brand: N/A
   from: Slope Vintage
@@ -132,6 +144,7 @@
 
 - name: Handmade pearl choker necklace
   id: 12
+  listprice: 8.00
   cost: 8.00
   brand: N/A
   from: Depop (@gchillingworth)
@@ -143,9 +156,10 @@
 
 - name: Black leggings
   id: 13
-  cost: 128.00
+  listprice: 128.00
+  cost: 0.00
   brand: lululemon
-  from: lululemon store
+  from: my mom
   new: true
   category: Clothing
   link:
@@ -154,6 +168,7 @@
 
 - name: Oversized quarter zip floral sweatshirt
   id: 14
+  listprice: 17.95
   cost: 17.95
   brand: N/A
   from: Beacon's Closet
@@ -165,6 +180,7 @@
 
 - name: Bright pink cardigan
   id: 15
+  listprice: 39.90
   cost: 16.95
   brand: Zara
   from: Beacon's Closet
@@ -176,6 +192,7 @@
 
 - name: Tie dye t-shirt
   id: 16
+  listprice: 12.50
   cost: 12.50
   brand: N/A
   from: Slope Vintage

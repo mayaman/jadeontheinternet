@@ -63,4 +63,6 @@ a:hover, a:active { background-image: linear-gradient(to bottom, transparent 0.1
 
 summary { outline: none; }
 
+table { text-align: left; }
+
 /*# sourceMappingURL=styles.css.map */
