@@ -1,12 +1,10 @@
 @charset "UTF-8";
 /*~*~*~*~*~*~*~*~*~*~* 🦋 GLOBAL ~*~*~*~*~*~*~*~*~*~*/
-body { background-color: #c4a9fc; color: black; }
+body { background-attachment: fixed; background: linear-gradient(hotpink, #c4a9fc); color: black; }
 
 main { margin: 50px 0px; }
 
 h1, h2, h3, h4, h5, h6 { margin: 0px; }
-
-a.current { color: lime; }
 
 a { color: black; }
 
@@ -21,7 +19,15 @@ a:hover, a:active { background-image: linear-gradient(to bottom, transparent 0.1
 #blog.link { background-image: url("https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif"); }
 
 /*~*~*~*~*~*~*~*~*~*~* 🦋 NAV ~*~*~*~*~*~*~*~*~*~*/
-nav { display: flex; justify-content: space-between; font-size: 1.25em; }
+nav { display: flex; justify-content: space-between; }
+
+nav a { font-size: 1.5em; }
+
+a.tiktok-link { font-weight: bold; cursor: alias; }
+
+.nav-pages a { margin: 0px 0px 0px 15px; }
+
+nav a.current { background: white; }
 
 @media only screen and (max-width: 768px) { nav span { font-size: 0.75em; display: block; } }
 
@@ -63,6 +69,21 @@ a:hover, a:active { background-image: linear-gradient(to bottom, transparent 0.1
 
 summary { outline: none; }
 
-table { text-align: left; }
+#thingsused-table { text-align: left; border-collapse: collapse; width: 100%; }
+
+#thingsused-table td, #thingsused-table th { border: 3px solid black; padding: 8px; background: white; margin: 50px 0px; }
+
+#thingsused-table td img { width: 50px; }
+
+/*~*~*~*~*~*~*~*~*~*~* 🦋 DRAFTS ~*~*~*~*~*~*~*~*~*~*/
+.draft-entry-container { display: flex; margin: 0 0 25px 0; max-width: fit-content; }
+
+.draft-video-container { display: flex; flex-flow: row wrap; }
+
+.draft-entry-left-col { margin: 0 25px 0 0; }
+
+iframe.draft-embed { max-width: 300px; margin: 15px 15px 0 0; }
+
+.draft-caption { max-width: 300px; }
 
 /*# sourceMappingURL=styles.css.map */

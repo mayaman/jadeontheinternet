@@ -4,7 +4,33 @@
 nav {
   display: flex;
   justify-content: space-between;
-  font-size: 1.25em;
+}
+
+nav a {
+  font-size: 1.5em;
+}
+
+a.tiktok-link {
+  font-weight: bold;
+  cursor: alias;
+}
+
+.nav-pages a {
+  // background: white;
+  margin: 0px 0px 0px 15px;
+}
+
+nav a.current {
+  // background-image: linear-gradient(
+  //   to bottom,
+  //   transparent 0.19em,
+  //   #c4a9fc 0.19em,
+  //   #c4a9fc 0.91em,
+  //   transparent 0.91em
+  // );
+  background: white;
+  // background: #c4a9fc;
+  // color: lime;
 }
 
 @media only screen and (max-width: 768px) {

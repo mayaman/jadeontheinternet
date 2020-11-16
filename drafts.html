@@ -1,0 +1,66 @@
+---
+layout: default
+title: DRAFT GRAVEYARD
+id: drafts
+bgimage: https://media.giphy.com/media/UUHUfrG6NsXzG/giphy.gif
+---
+
+
+{% for draft in site.data.drafts %}
+<!-- 🦋<time>{{ draft.date | date: '%B %d, %Y'}} </time>🦋
+<br>
+<a href="./#{{ draft.date }}">* VIEW POST *</a> -->
+<div class="draft-entry-container">
+    <div class="draft-video-container">
+        <div class="single-draft-video">
+            <iframe class="draft-embed" width="560" height="315"
+                src="https://www.youtube-nocookie.com/embed/{{ draft.postedVideoID }}" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class="draft-caption"><a href="{{draft.link}}" target="_blank"> <b>* POSTED VIDEO *</b>
+                </a>
+            </div>
+        </div>
+        {% for currentDraft in draft.selectDrafts %}
+        <div class="single-draft-video">
+            <iframe class="draft-embed" width="560" height="315"
+                src="https://www.youtube-nocookie.com/embed/{{ currentDraft.id }}" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div class="draft-caption"><b>[DRAFT]</b> {{ currentDraft.caption }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<div>🦋</div>
+<br>
+{% endfor %}
+
+
+<!-- {% for draft in site.data.drafts %}
+<div class="draft-entry-container">
+    <div class="draft-entry-left-col">
+        <div> <a href="{{draft.link}}" target="_blank">POSTED VIDEO</a> </div>
+        <iframe class="draft-embed" width="560" height="315"
+            src="https://www.youtube-nocookie.com/embed/{{ draft.postedVideoID }}" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <div class="draft-entry-right-col">
+        <div>DRAFTS</div>
+        <div class="draft-video-container">
+            {% for draftID in draft.selectDraftIDs %}
+            <div class="single-draft-video">
+                <iframe class="draft-embed" width="560" height="315"
+                    src="https://www.youtube-nocookie.com/embed/{{ draftID }}" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div>I didn't use this one because the face zoom was so weird haha!</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<hr>
+{% endfor %} -->

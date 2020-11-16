@@ -8,11 +8,24 @@
     <script src="./assets/js/main.js"></script>
     <link rel="icon" href="./butterfly.png">
     <!-- HISTORY OF WHOIS PROTOCOL: https://en.wikipedia.org/wiki/WHOIS -->
+    <!-- STATCOUNTER CODE -->
+    <script type="text/javascript">
+        var sc_project = 12429888;
+        var sc_invisible = 1;
+        var sc_security = "a98b4adc";
+        var sc_https = 1;
+        var sc_remove_link = 1; 
+    </script>
+    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+    <noscript>
+        <div class="statcounter"><img class="statcounter" src="https://c.statcounter.com/12429888/0/a98b4adc/1/" alt="Web Analytics Made Easy -
+    StatCounter"></div>
+    </noscript>
+    <!-- END STATCOUNTER CODE -->
 </head>
 
-<body>
-    <h1><a target="_blank" href="https://www.tiktok.com/@jadeontheinternet">@jadeontheinternet?</a></h1>
-
+<body {% if page.bgimages %}style="background-image: url({{ page.bgimage }})" {% endif %}>
+    {% include navigation.html %}
     <main>
         {{ content }}
     </main>

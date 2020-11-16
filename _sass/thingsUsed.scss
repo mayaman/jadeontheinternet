@@ -1,3 +1,17 @@
-table {
+#thingsused-table {
   text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#thingsused-table td,
+#thingsused-table th {
+  border: 3px solid black;
+  padding: 8px;
+  background: white;
+  margin: 50px 0px;
+}
+
+#thingsused-table td img {
+  width: 50px;
 }

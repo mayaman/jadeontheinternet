@@ -1,4 +1,11 @@
-- name: WHO IS JADE
+- name: POSTS
   link: /
-- name: ON THE INTERNET
-  link: /ontheinternet.html
+- name: INDEX OF THINGS USED
+  link: /thingsused.html
+# - name: DRAFT GRAVEYARD
+#   link: /drafts.html
+# - name: BOOKSHELF
+#   link: /bookshelf.html
+# - name: "@JADEONTHEINTERNET?"
+#   link: https://www.tiktok.com/@jadeontheinternet
+#   newtab: true

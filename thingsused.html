@@ -1,17 +1,30 @@
 ---
 layout: default
-title: ON THE INTERNET
-id: blog
+title: INDEX OF THINGS USED
+id: thingsused
+bgimage: https://media.giphy.com/media/5zheTUHRhWkiKylaZ9/giphy.gif
 ---
 
 
-<table>
+{% assign total = 0 %}
+{% assign thingsLimit = page.thingsUsedToDateLimit | plus: 1 %}
+{% for thing in site.data.thingsUsed %}
+{% assign total = total | plus: thing.cost %}
+{% endfor %}
+
+<table id="thingsused-table">
     <tr>
+        <th>
+            Image
+        </th>
         <th>
             Name
         </th>
         <th>
             Brand
+        </th>
+        <th>
+            Got it from
         </th>
         <th>
             Cost
@@ -22,13 +35,17 @@ id: blog
     </tr>
     {% for item in site.data.thingsUsed %}
     <tr>
-        <th>{{ item.name }}</th>
-        <th>{{ item.brand }}</th>
+        <td><img src="/assets/images/loading.gif" alt=""></td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.brand }}</td>
+        <td>{{ item.from }}</td>
         {% assign price_split = item.cost | round: 2 | split: "." %}
         {% assign integral = price_split[0] %}
         {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
-        <th>${{ integral }}.{{ fractional }}</th>
-        <th>{{ item.notes }}</th>
+        <td>${{ integral }}.{{ fractional }}</td>
+        <td>{{ item.notes }}</td>
     </tr>
     {% endfor %}
 </table>
+
+<h2>TOTAL COST OF THINGS USED TO DATE: ${{ total }}</h2>

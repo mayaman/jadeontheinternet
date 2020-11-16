@@ -1,0 +1,26 @@
+/*~*~*~*~*~*~*~*~*~*~*
+ * 🦋 DRAFTS
+ *~*~*~*~*~*~*~*~*~*~*/
+.draft-entry-container {
+  display: flex;
+  margin: 0 0 25px 0;
+  max-width: fit-content;
+}
+
+.draft-video-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.draft-entry-left-col {
+  margin: 0 25px 0 0;
+}
+
+iframe.draft-embed {
+  max-width: 300px;
+  margin: 15px 15px 0 0;
+}
+
+.draft-caption {
+  max-width: 300px;
+}

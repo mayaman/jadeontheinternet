@@ -92,7 +92,7 @@
   category: Makeup
   link: https://www.glossier.com/products/cloud-paint
   reference:
-  notes: In this one viral TikTok mascara hack video, THIS is the mascara she uses.
+  notes:
 
 - name: Baked highlighter (Moonlight pearls)
   id: 8
@@ -201,3 +201,75 @@
   link:
   reference: https://www.insider.com/diy-tie-dye-at-home-tutorials-youtube-tik-tok-quarantine-2020-4
   notes: Tie dye is essential tiktok fashion.
+
+- name: Hair elastics (1 pack of 18)
+  id: 17
+  listprice: 4.39
+  cost: 4.39
+  brand: N/A
+  from: CVS
+  new: true
+  category: Hair
+  link:
+  reference:
+  notes: These will hopefully last me a while.
+
+- name: Hair straightener
+  id: 18
+  listprice: 149.00
+  cost: 0.00
+  brand: ghd
+  from: Mom's bathroom
+  new: false
+  category: Hair
+  link: https://www.ghdhair.com/us/ghd-iv-styler-collection/ghd-iv-styler
+  reference:
+  notes: Charli D'amelio always has perfectly pin straight hair. Doing this reallllly brought me back to middle school. Not sure I have straightened my hair since like 2012.
+
+- name: Tiny mask shirt
+  id: 19
+  listprice: 0.00
+  cost: 0.00
+  brand: N/A
+  from: Mom's closet
+  new: false
+  category: Clothing
+  link: https://www.ghdhair.com/us/ghd-iv-styler-collection/ghd-iv-styler
+  reference: https://www.tiktok.com/tag/bandanatop?lang=en
+  notes: Wanted to film while I was at my parents' place, but I didn't bring any "Jade" clothes... MaryV and I found this lying around and my mom later told me she had cut and tied it together as a MASK.
+
+- name: Blush (True Plum)
+  id: 20
+  listprice: 0.00
+  cost: 0.00
+  brand: CoverGirl
+  from: Mom's bathroom
+  new: false
+  category: Makeup
+  link: https://www.ulta.com/cheekers-blush?productId=xlsImpprod641131&sku=2108356&cmpid=PS_Non!google!Product_Listing_Ads&cagpspn=pla&CATCI=pla-683425019412&CAAGID=107718645596&CAWELAID=772016423&CATARGETID=330000200002459488&CADevice=c&gclid=Cj0KCQiAnb79BRDgARIsAOVbhRq8PfdDsUC33Ikhvjf7fac2k_YNQDDhQh1kE3mbWKWgllMWPQHBcRYaAoAHEALw_wcB
+  reference:
+  notes: Wanted to go for that pink cheek doll look.
+
+- name: Fiberwig mascara
+  id: 21
+  listprice: 19.00
+  cost: 0.00
+  brand: d.j.v. MIARAY
+  from: Mom's bathroom
+  new: false
+  category: Makeup
+  link: https://www.amazon.com/D-J-V-MIARAY-d-j-v-MIARAY-Fiberwig/dp/B011LLZ88K
+  reference:
+  notes: MaryV said this mascara was better at separating lashes than the L'Oréal Lash Paradise one I've been using, so maybe I'll start using this instead.
+
+- name: Vintage high-waisted blue jeans
+  id: 22
+  listprice: 98.00
+  cost: 98.00
+  brand: L.L.Bean
+  from: Walk The West Vintage
+  new: false
+  category: Clothing
+  link:
+  reference:
+  notes: These are my go-to jeans... they are probably a little big for Jade's taste, so will have to find her a new pair.
