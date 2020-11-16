@@ -25,7 +25,7 @@ nav a { font-size: 1.5em; }
 
 a.tiktok-link { font-weight: bold; cursor: alias; }
 
-.nav-pages a { margin: 0px 0px 0px 15px; }
+.nav-pages a { margin: 0px 0px 0px 15px; font-size: 0.8em; vertical-align: text-bottom; }
 
 nav a.current { background: white; }
 
@@ -76,14 +76,14 @@ summary { outline: none; }
 #thingsused-table td img { width: 50px; }
 
 /*~*~*~*~*~*~*~*~*~*~* 🦋 DRAFTS ~*~*~*~*~*~*~*~*~*~*/
-.draft-entry-container { display: flex; margin: 0 0 25px 0; max-width: fit-content; }
+.draft-entry-container { display: block; margin: auto; max-width: fit-content; }
 
-.draft-video-container { display: flex; flex-flow: row wrap; }
+.draft-video-container { display: flex; flex-flow: row wrap; justify-content: space-evenly; }
 
-.draft-entry-left-col { margin: 0 25px 0 0; }
+.single-draft-video { margin: 15px 30px 0 0; }
 
-iframe.draft-embed { max-width: 300px; margin: 15px 15px 0 0; }
+iframe.draft-embed { max-width: 175px; }
 
-.draft-caption { max-width: 300px; }
+.draft-caption { max-width: 175px; }
 
 /*# sourceMappingURL=styles.css.map */
