@@ -11,41 +11,44 @@ bgimage: https://media.giphy.com/media/5zheTUHRhWkiKylaZ9/giphy.gif
 {% for thing in site.data.thingsUsed %}
 {% assign total = total | plus: thing.cost %}
 {% endfor %}
-
-<table id="thingsused-table">
-    <tr>
-        <th>
-            Image
-        </th>
-        <th>
-            Name
-        </th>
-        <th>
-            Brand
-        </th>
-        <th>
-            Got it from
-        </th>
-        <th>
-            Cost
-        </th>
-        <th>
-            Notes
-        </th>
-    </tr>
-    {% for item in site.data.thingsUsed %}
-    <tr>
-        <td><img src="/assets/images/loading.gif" alt=""></td>
-        <td>{{ item.name }}</td>
-        <td>{{ item.brand }}</td>
-        <td>{{ item.from }}</td>
-        {% assign price_split = item.cost | round: 2 | split: "." %}
-        {% assign integral = price_split[0] %}
-        {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
-        <td>${{ integral }}.{{ fractional }}</td>
-        <td>{{ item.notes }}</td>
-    </tr>
-    {% endfor %}
-</table>
-
-<h2>TOTAL COST OF THINGS USED TO DATE: ${{ total }}</h2>
+<div class="table-container">
+    <table id="thingsused-table">
+        <tr>
+            <!-- <th>
+            IMAGE
+        </th> -->
+            <th>
+                NAME
+            </th>
+            <th>
+                BRAND
+            </th>
+            <th>
+                GOT IT FROM
+            </th>
+            <th>
+                COST
+            </th>
+            <th>
+                NOTES
+            </th>
+        </tr>
+        {% for item in site.data.thingsUsed %}
+        <tr>
+            <!-- <td><img src="/assets/images/loading.gif" alt=""></td> -->
+            <td>{{ item.name }}</td>
+            <td>{{ item.brand }}</td>
+            <td>{{ item.from }}</td>
+            {% assign price_split = item.cost | round: 2 | split: "." %}
+            {% assign integral = price_split[0] %}
+            {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+            <td>${{ integral }}.{{ fractional }}</td>
+            <td>{{ item.notes }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+<br>
+<span>TOTAL COST OF THINGS USED TO DATE: ${{ total }}</span>
+<br>
+<span>TOTAL MONEY MADE TO DATE: $0.00</span>

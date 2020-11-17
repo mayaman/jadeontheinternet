@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*~*~*~*~*~*~*~*~*~*~* 🦋 GLOBAL ~*~*~*~*~*~*~*~*~*~*/
-body { background-attachment: fixed; background: linear-gradient(hotpink, #c4a9fc); color: black; }
+body { background-attachment: fixed; background: linear-gradient(hotpink, #c4a9fc); color: black; min-height: 100vh; }
 
 main { margin: 50px 0px; }
 
@@ -27,7 +27,7 @@ a.tiktok-link { font-weight: bold; cursor: alias; }
 
 .nav-pages a { margin: 0px 0px 0px 15px; font-size: 0.8em; vertical-align: text-bottom; }
 
-nav a.current { background: white; }
+nav a.current { background: #c4a9fc; }
 
 @media only screen and (max-width: 768px) { nav span { font-size: 0.75em; display: block; } }
 
@@ -43,7 +43,7 @@ nav a.current { background: white; }
 @media only screen and (max-width: 768px) { .jade-is, .link { position: inherit; max-width: 100%; } }
 
 /*~*~*~*~*~*~*~*~*~*~* 🦋 ON THE INTERNET  ~*~*~*~*~*~*~*~*~*~*/
-article { background: white; border: 3px solid black; padding: 25px; margin: 0px 0px 25px 0px; max-width: 750px; display: block; }
+article { background: #ffffff; border: 2px solid #f2e748; padding: 15px; margin: 0px 0px 25px 0px; max-width: 650px; display: block; }
 
 @media only screen and (max-width: 768px) { article { max-width: 100%; } }
 
@@ -51,13 +51,13 @@ article { background: white; border: 3px solid black; padding: 25px; margin: 0px
 
 time { font-style: italic; }
 
-.post-youtube-embed { margin: 1em 0px; }
-
-.post-youtube-embed iframe { max-width: 100%; }
+.post-youtube-embed iframe { max-width: 175px; }
 
 a:hover, a:active { background-image: linear-gradient(to bottom, transparent 0.19em, #c4a9fc 0.19em, #c4a9fc 0.91em, transparent 0.91em); }
 
 .post-key { font-weight: bold; }
+
+.post-col { flex: 4; }
 
 .post-data-list { margin: 0px; padding: 0px; display: inline; list-style: none; }
 
@@ -69,9 +69,15 @@ a:hover, a:active { background-image: linear-gradient(to bottom, transparent 0.1
 
 summary { outline: none; }
 
-#thingsused-table { text-align: left; border-collapse: collapse; width: 100%; }
+.post-writing-container { display: block; }
 
-#thingsused-table td, #thingsused-table th { border: 3px solid black; padding: 8px; background: white; margin: 50px 0px; }
+.table-container { height: 70vh; overflow: scroll; border: 2px solid #f2e748; }
+
+#thingsused-table { text-align: left; border-collapse: collapse; width: 100%; border-collapse: collapse; border-style: hidden; }
+
+#thingsused-table td, #thingsused-table th { border: 1px solid black; padding: 8px; margin: 50px 0px; background: white; }
+
+#thingsused-table th { background: #c4a9fc; }
 
 #thingsused-table td img { width: 50px; }
 
@@ -85,5 +91,7 @@ summary { outline: none; }
 iframe.draft-embed { max-width: 175px; }
 
 .draft-caption { max-width: 175px; }
+
+hr { border-top: 1px solid #f2e748; }
 
 /*# sourceMappingURL=styles.css.map */

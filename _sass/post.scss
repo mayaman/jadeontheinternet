@@ -3,11 +3,11 @@
  *~*~*~*~*~*~*~*~*~*~*/
 
 article {
-  background: white;
-  border: 3px solid black;
-  padding: 25px;
+  background: #ffffff;
+  border: 2px solid #f2e748;
+  padding: 15px;
   margin: 0px 0px 25px 0px;
-  max-width: 750px;
+  max-width: 650px;
   display: block;
 }
 
@@ -25,11 +25,13 @@ time {
 }
 
 .post-youtube-embed {
-  margin: 1em 0px;
+  // margin: 1em 0px;
+  // float: left;
 }
 
 .post-youtube-embed iframe {
-  max-width: 100%;
+  max-width: 175px;
+  // max-width: 80%;
 }
 
 a:hover,
@@ -45,6 +47,18 @@ a:active {
 
 .post-key {
   font-weight: bold;
+}
+
+.post-col-container {
+  // display: flex;
+}
+
+.post-col {
+  flex: 4;
+  // border: 2px solid yellow;
+}
+
+.post-data-container {
 }
 
 .post-data-list {
@@ -68,4 +82,8 @@ a:active {
 
 summary {
   outline: none; // TO CHANGE WITH JAVASCRIPT
+}
+
+.post-writing-container {
+  display: block;
 }
