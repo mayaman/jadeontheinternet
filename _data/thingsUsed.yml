@@ -273,3 +273,39 @@
   link:
   reference:
   notes: These are my go-to jeans... they are probably a little big for Jade's taste, so will have to find her a new pair.
+
+- name: Knit tube top
+  id: 23
+  listprice: N/A
+  cost: 0.00
+  brand: TODO
+  from: Borrowed from MaryV
+  new: false
+  category: Clothing
+  link:
+  reference:
+  notes: I tried to put this one without a bra and was like absolutely not, Jade would be embarassed by her lack to show here.
+
+- name: Push up strapless bra
+  id: 24
+  listprice: 54.50
+  cost: 54.50
+  brand: Victoria's Secret
+  from: Victoria's Secret
+  new: true
+  category: Clothing
+  link:
+  reference:
+  notes: The first time I have worn this in ages. I think I originally bought in in high school for a strapless homecoming dress.
+
+- name: Ace pants (including buckle belt)
+  id: 25
+  listprice: 90.00
+  cost: 22.50
+  brand: I.AM.GIA
+  from: Depop (@kaitlynviray)
+  new: false
+  category: Clothing
+  link: https://iamgia.com/products/ace-pant-black-red
+  reference:
+  notes: I.AM.GIA feels very tiktok influencer. Actually don't love these, so was going to try to resell them. But they fit Jade.
