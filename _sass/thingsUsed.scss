@@ -1,8 +1,29 @@
+.things-used-container {
+  width: 75%;
+  margin: auto;
+  display: block;
+}
+
 .table-container {
   height: 70vh;
   overflow: scroll;
-  border: 2px solid #7fedc9;
+  // border: 2px solid #7fedc9;
 }
+
+// table thead tr {
+//   display: block;
+// }
+
+// table th,
+// table td {
+//   width: fit-content; //fixed width
+// }
+
+// table tbody {
+//   display: block;
+//   height: 500px;
+//   overflow: auto; //set tbody to auto
+// }
 
 #thingsused-table {
   text-align: left;
@@ -14,8 +35,8 @@
 
 #thingsused-table td,
 #thingsused-table th {
-  border: 1px solid black;
-  padding: 8px;
+  border: 1px dashed black;
+  padding: 15px;
   margin: 50px 0px;
   background: white;
 }
@@ -30,4 +51,20 @@
 
 #thingsused-table td img {
   width: 50px;
+}
+
+.cost-stat {
+  display: block;
+  width: fit-content;
+  padding: 15px;
+  margin: 15px 0px;
+  font-weight: bold;
+}
+
+#total-cost {
+  background: #7fedc9;
+}
+
+#money-made {
+  background: #dbf989;
 }

@@ -4,35 +4,54 @@
 nav {
   display: flex;
   justify-content: space-between;
-}
-
-nav a {
-  font-size: 1.5em;
+  font-weight: bold;
 }
 
 a.tiktok-link {
-  font-weight: bold;
   cursor: alias;
+  font-size: 1.5em;
 }
 
-.nav-pages a {
-  // background: white;
-  margin: 0px 0px 0px 15px;
-  font-size: 0.8em;
+.nav-dropdown {
+  text-align: right;
+  font-size: 1em;
   vertical-align: text-bottom;
 }
 
-nav a.current {
-  // background-image: linear-gradient(
-  //   to bottom,
-  //   transparent 0.19em,
-  //   #c4a9fc 0.19em,
-  //   #c4a9fc 0.91em,
-  //   transparent 0.91em
-  // );
-  background: #c4a9fc;
+.nav-dropdown:hover {
+  cursor: pointer;
+}
+
+.nav-dropdown:hover > .nav-pages {
+  visibility: visible;
+}
+
+.nav-pages {
+  visibility: hidden;
+  position: fixed;
+  right: 15px;
+  top: 35px;
+}
+
+.nav-pages a {
+  // background: hotpink;
+  color: black;
+  margin: 0px 0px 0px 15px;
+  vertical-align: text-bottom;
+  display: block;
+  padding: 5px 0px;
+  text-decoration: none;
+  font-size: 0.75em;
+}
+
+.nav-pages a:hover {
   // background: #c4a9fc;
-  // color: #7fedc9;
+  color: white;
+  background-image: none;
+}
+
+nav a.current {
+  // background: #c4a9fc;
 }
 
 @media only screen and (max-width: 768px) {

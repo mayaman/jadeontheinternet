@@ -4,10 +4,13 @@
 body {
   // background-image: url("https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif");
   background-attachment: fixed;
-  // background-color: #c4a9fc;
-  // background-color: hotpink;
-  // background: linear-gradient(hotpink, #c4a9fc);
-  background: radial-gradient(hotpink, #c4a9fc, #ffbaff, #d07fff);
+  background: rgb(255, 186, 255);
+  background: radial-gradient(
+    rgba(255, 186, 255, 1),
+    rgba(208, 127, 255, 1),
+    rgba(196, 169, 252, 1),
+    rgba(255, 105, 180, 1)
+  );
 
   color: black;
   min-height: 100vh;
