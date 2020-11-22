@@ -1,0 +1,12 @@
+---
+layout: default
+title: READER
+id: reader
+---
+<div class="reader-container">
+    <ul>
+        {% for item in site.data.reader %}
+        <li class="reader-item"><a class="arrow-cursor" target="_blank" href="{{item.link}}">{{ item.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

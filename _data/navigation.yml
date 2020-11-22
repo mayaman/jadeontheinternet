@@ -6,8 +6,8 @@
   link: /drafts.html
 - name: COMMENT GALLERY
   link: /commentgallery.html
-# - name: BOOKSHELF
-#   link: /bookshelf.html
+- name: READER
+  link: /reader.html
 # - name: "@JADEONTHEINTERNET?"
 #   link: https://www.tiktok.com/@jadeontheinternet
 #   newtab: true

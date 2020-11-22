@@ -41,15 +41,6 @@ a.tiktok-link { cursor: alias; font-size: 1.5em; }
 
 #nav-butterfly { position: absolute; left: 50%; transform: translate(-50%, 0px); }
 
-/*~*~*~*~*~*~*~*~*~*~* 🦋 WHO IS JADE ~*~*~*~*~*~*~*~*~*~*/
-.jade-is { position: absolute; color: black; max-width: 500px; visibility: hidden; margin: 25px 0px; padding: 25px; background: white; border: 3px solid black; }
-
-.link { position: absolute; color: black; display: inline-block; margin: 25px 0px; padding: 25px; background-size: cover; border: 3px solid black; }
-
-.link a { background: white; font-size: 2em; text-align: center; }
-
-@media only screen and (max-width: 768px) { .jade-is, .link { position: inherit; max-width: 100%; } }
-
 /*~*~*~*~*~*~*~*~*~*~* 🦋 ON THE INTERNET  ~*~*~*~*~*~*~*~*~*~*/
 article { margin: 0px 0px 150px 0px; max-width: 550px; display: block; }
 
@@ -121,5 +112,7 @@ hr { border-top: 1px solid #7fedc9; }
 .comment-container { margin: 50px 0; }
 
 img.comment { max-width: 100%; }
+
+.reader-item { margin: 50px 50px; font-size: 6em; }
 
 /*# sourceMappingURL=styles.css.map */
