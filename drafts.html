@@ -5,31 +5,15 @@ id: drafts
 bgimage: https://media.giphy.com/media/UUHUfrG6NsXzG/giphy.gif
 ---
 <div class="draft-entry-container">
-    {% for draft in site.data.drafts %}
-    <!-- 🦋<time>{{ draft.date | date: '%B %d, %Y'}} </time>🦋
-<br>
-<a href="./#{{ draft.date }}">* VIEW POST *</a> -->
     <div class="draft-video-container">
+        {% for draft in site.data.drafts %}
         <div class="single-draft-video">
             <iframe class="draft-embed" width="560" height="315"
-                src="https://www.youtube-nocookie.com/embed/{{ draft.postedVideoID }}" frameborder="0"
+                src="https://www.youtube-nocookie.com/embed/{{ draft.id }}" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <div class="draft-caption"><a href="{{draft.link}}" target="_blank"> <b>* POSTED VIDEO *</b>
-                </a>
-            </div>
-        </div>
-        {% for currentDraft in draft.selectDrafts %}
-        <div class="single-draft-video">
-            <iframe class="draft-embed" width="560" height="315"
-                src="https://www.youtube-nocookie.com/embed/{{ currentDraft.id }}" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <div class="draft-caption"><b>[DRAFT]</b> {{ currentDraft.caption }}
-            </div>
+            <div class="draft-caption">{{ draft.caption }}</div>
         </div>
         {% endfor %}
     </div>
-    <br>
-    {% endfor %}
 </div>

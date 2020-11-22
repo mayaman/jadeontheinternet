@@ -4,17 +4,17 @@
 .draft-entry-container {
   display: block;
   margin: auto;
-  max-width: fit-content;
+  max-width: 80%;
 }
 
 .draft-video-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .single-draft-video {
-  margin: 15px 30px 0 0;
+  margin: 15px 30px;
 }
 
 iframe.draft-embed {
@@ -26,5 +26,5 @@ iframe.draft-embed {
 }
 
 hr {
-  border-top: 1px solid #f2e748;
+  border-top: 1px solid #7fedc9;
 }

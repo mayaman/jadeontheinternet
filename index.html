@@ -6,15 +6,26 @@ bgimage: https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif
 ---
 
 {% for post in site.posts %}
-{{ post }}
-{% endfor %}
 
-<!-- <ul>
-    {% for post in site.posts %}
-    <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {{ post.excerpt }}
-    </li>
-    {{post.article}}
-    {% endfor %}
-</ul> -->
+{% assign day = post.date | date: "%d" %}
+{% assign bigNum = day | plus: post.numFollowers %}
+{% assign random = bigNum  | modulo: 15 %}
+
+{% assign value = forloop.index | modulo:2 %}
+{% if value == 0 %}
+{% assign push = random | plus: 40 %}
+{% else %}
+{% assign push = random %}
+{% endif %}
+
+{{  }}
+{% assign numPosts = site.posts | size %}
+{% assign totalDays = numPosts | plus: 1 %}
+{% assign postNumber = totalDays | minus: forloop.index %}
+<div style="margin-left: {{ push }}%">
+    <span class="post-index">
+        🦋 DAY {{postNumber}}
+    </span>
+    {{ post }}
+</div>
+{% endfor %}

@@ -164,7 +164,7 @@
   category: Clothing
   link:
   reference: https://www.teenvogue.com/story/tiktok-viral-fashion-brands
-  notes: SO EXPENSIVE WTF
+  notes: My dad bought these for my mom, but she didn't want them so now I have them yay. I'm not about the lulu hype, but I will say... these are nice.
 
 - name: Oversized quarter zip floral sweatshirt
   id: 14
@@ -308,4 +308,16 @@
   category: Clothing
   link: https://iamgia.com/products/ace-pant-black-red
   reference:
-  notes: I.AM.GIA feels very tiktok influencer. Actually don't love these, so was going to try to resell them. But they fit Jade.
+  notes: I.AM.GIA feels like a very TikTok influencer brand. Actually don't love these, so was going to try to resell them. But they fit Jade.
+
+- name: Pink one-shoulder bra top
+  id: 26
+  listprice: TODO
+  cost: 0.00
+  brand: TODO
+  from: Borrowed from MaryV
+  new: false
+  category: Clothing
+  link:
+  reference:
+  notes:

@@ -6,7 +6,9 @@ body {
   background-attachment: fixed;
   // background-color: #c4a9fc;
   // background-color: hotpink;
-  background: linear-gradient(hotpink, #c4a9fc);
+  // background: linear-gradient(hotpink, #c4a9fc);
+  background: radial-gradient(hotpink, #c4a9fc, #ffbaff, #d07fff);
+
   color: black;
   min-height: 100vh;
 }
@@ -26,6 +28,10 @@ h6 {
 
 a {
   color: black;
+}
+
+a.arrow-cursor:hover {
+  cursor: alias;
 }
 
 ::selection {

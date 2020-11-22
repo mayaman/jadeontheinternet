@@ -1,12 +1,14 @@
 @charset "UTF-8";
 /*~*~*~*~*~*~*~*~*~*~* 🦋 GLOBAL ~*~*~*~*~*~*~*~*~*~*/
-body { background-attachment: fixed; background: linear-gradient(hotpink, #c4a9fc); color: black; min-height: 100vh; }
+body { background-attachment: fixed; background: radial-gradient(hotpink, #c4a9fc, #ffbaff, #d07fff); color: black; min-height: 100vh; }
 
 main { margin: 50px 0px; }
 
 h1, h2, h3, h4, h5, h6 { margin: 0px; }
 
 a { color: black; }
+
+a.arrow-cursor:hover { cursor: alias; }
 
 ::selection { background: #c4a9fc; }
 
@@ -43,7 +45,11 @@ nav a.current { background: #c4a9fc; }
 @media only screen and (max-width: 768px) { .jade-is, .link { position: inherit; max-width: 100%; } }
 
 /*~*~*~*~*~*~*~*~*~*~* 🦋 ON THE INTERNET  ~*~*~*~*~*~*~*~*~*~*/
-article { background: #ffffff; border: 2px solid #f2e748; padding: 15px; margin: 0px 0px 25px 0px; max-width: 650px; display: block; }
+article { margin: 0px 0px 150px 0px; max-width: 550px; display: block; }
+
+.post-index { font-size: 3em; font-weight: bold; }
+
+.post-container { background: #ffffff; padding: 15px; margin-top: 10px; }
 
 @media only screen and (max-width: 768px) { article { max-width: 100%; } }
 
@@ -67,11 +73,11 @@ a:hover, a:active { background-image: linear-gradient(to bottom, transparent 0.1
 
 .post-data-list li:last-child:after { content: ""; }
 
-summary { outline: none; }
+summary { outline: none; cursor: pointer; }
 
 .post-writing-container { display: block; }
 
-.table-container { height: 70vh; overflow: scroll; border: 2px solid #f2e748; }
+.table-container { height: 70vh; overflow: scroll; border: 2px solid #7fedc9; }
 
 #thingsused-table { text-align: left; border-collapse: collapse; width: 100%; border-collapse: collapse; border-style: hidden; }
 
@@ -82,16 +88,16 @@ summary { outline: none; }
 #thingsused-table td img { width: 50px; }
 
 /*~*~*~*~*~*~*~*~*~*~* 🦋 DRAFTS ~*~*~*~*~*~*~*~*~*~*/
-.draft-entry-container { display: block; margin: auto; max-width: fit-content; }
+.draft-entry-container { display: block; margin: auto; max-width: 80%; }
 
-.draft-video-container { display: flex; flex-flow: row wrap; justify-content: space-evenly; }
+.draft-video-container { display: flex; flex-flow: row wrap; justify-content: space-around; }
 
-.single-draft-video { margin: 15px 30px 0 0; }
+.single-draft-video { margin: 15px 30px; }
 
 iframe.draft-embed { max-width: 175px; }
 
 .draft-caption { max-width: 175px; }
 
-hr { border-top: 1px solid #f2e748; }
+hr { border-top: 1px solid #7fedc9; }
 
 /*# sourceMappingURL=styles.css.map */
