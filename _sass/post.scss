@@ -2,10 +2,13 @@
  * 🦋 ON THE INTERNET 
  *~*~*~*~*~*~*~*~*~*~*/
 
-article {
+.post-wrapper {
   margin: 0px 0px 150px 0px;
   max-width: 550px;
   display: block;
+}
+
+article {
 }
 
 .post-index {
@@ -96,4 +99,15 @@ summary {
 
 .post-writing-container {
   display: block;
+}
+
+.thought {
+  background: white;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  padding: 50px;
+  margin: 50px;
+  max-width: 300px;
+  position: relative;
 }

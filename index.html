@@ -14,17 +14,29 @@ bgimage: https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif
 {% assign value = forloop.index | modulo:2 %}
 {% if value == 0 %}
 {% assign push = random | plus: 40 %}
+{% assign floatDirection = "left" %}
+
 {% else %}
 {% assign push = random %}
+{% assign floatDirection = "right" %}
 {% endif %}
 
 {% assign numPosts = site.posts | size %}
 {% assign totalDays = numPosts | plus: 1 %}
 {% assign postNumber = totalDays | minus: forloop.index %}
-<div style="margin-left: {{ push }}%">
-    <span class="post-index">
-        🦋 DAY {{postNumber}}
-    </span>
-    {{ post }}
+
+<div>
+    <div class="post-wrapper" style="margin-left: {{ push }}%">
+        <span class="post-index">
+            🦋 DAY {{postNumber}}
+        </span>
+        {{ post }}
+    </div>
+    <!-- <div class="thought">
+        At first, I was debating whether or not I should make Jade intentionally " bad" at TikTok. But a month into
+        this project, I am realizing that there was no need to choose.
+    </div> -->
 </div>
+
+
 {% endfor %}

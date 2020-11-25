@@ -22,14 +22,21 @@ iframe.draft-embed {
 }
 
 iframe.draft-embed:hover + .draft-caption {
-  visibility: visible;
+  // visibility: visible;
+  opacity: 1;
+}
+
+.draft-caption:hover {
+  opacity: 1;
 }
 
 .draft-caption {
   max-width: 175px;
-  visibility: hidden;
-  margin-top: 15px;
+  opacity: 0;
+  font-size: 0.8em;
+  padding-top: 5px;
   color: black;
+  text-align: center;
   // text-shadow: 1px 1px 2px white, 0 0 25px #00c2dc, 0 0 5px #00c2dc;
   // filter: drop-shadow(0 0 4mm hotpink);
 }

@@ -14,11 +14,11 @@ a.arrow-cursor:hover { cursor: alias; }
 
 a:hover, a:active { background-image: linear-gradient(to bottom, transparent 0.19em, #c4a9fc 0.19em, #c4a9fc 0.91em, transparent 0.91em); }
 
-#bookshelf.link { background-image: url("https://media.giphy.com/media/1TpGKApbHmkZa/giphy.gif"); }
+.link#bookshelf { background-image: url("https://media.giphy.com/media/1TpGKApbHmkZa/giphy.gif"); }
 
-#commentgallery.link { background-image: url("https://media.giphy.com/media/J2P5Izk0DJFbG/giphy.gif"); }
+.link#commentgallery { background-image: url("https://media.giphy.com/media/J2P5Izk0DJFbG/giphy.gif"); }
 
-#blog.link { background-image: url("https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif"); }
+.link#blog { background-image: url("https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif"); }
 
 /*~*~*~*~*~*~*~*~*~*~* 🦋 NAV ~*~*~*~*~*~*~*~*~*~*/
 nav { display: flex; justify-content: space-between; font-weight: bold; }
@@ -38,18 +38,16 @@ a.tiktok-link { cursor: alias; font-size: 1.5em; }
 .nav-pages a:hover { color: white; background-image: none; }
 
 @media only screen and (max-width: 768px) { nav span { font-size: 0.75em; display: block; } }
-
 #nav-butterfly { position: absolute; left: 50%; transform: translate(-50%, 0px); }
 
 /*~*~*~*~*~*~*~*~*~*~* 🦋 ON THE INTERNET  ~*~*~*~*~*~*~*~*~*~*/
-article { margin: 0px 0px 150px 0px; max-width: 550px; display: block; }
+.post-wrapper { margin: 0px 0px 150px 0px; max-width: 550px; display: block; }
 
 .post-index { font-size: 3em; font-weight: bold; }
 
 .post-container { background: #ffffff; padding: 15px; margin-top: 10px; }
 
 @media only screen and (max-width: 768px) { article { max-width: 100%; } }
-
 .post-header { margin-bottom: 15px; }
 
 time { font-style: italic; }
@@ -73,6 +71,8 @@ a:hover, a:active { background-image: linear-gradient(to bottom, transparent 0.1
 summary { outline: none; cursor: pointer; }
 
 .post-writing-container { display: block; }
+
+.thought { background: white; border-radius: 50%; text-align: center; display: inline-block; padding: 50px; margin: 50px; max-width: 300px; position: relative; }
 
 .things-used-container { width: 75%; margin: auto; display: block; }
 
@@ -101,9 +101,11 @@ summary { outline: none; cursor: pointer; }
 
 iframe.draft-embed { max-width: 175px; }
 
-iframe.draft-embed:hover + .draft-caption { visibility: visible; }
+iframe.draft-embed:hover + .draft-caption { opacity: 1; }
 
-.draft-caption { max-width: 175px; visibility: hidden; margin-top: 15px; color: black; }
+.draft-caption:hover { opacity: 1; }
+
+.draft-caption { max-width: 175px; opacity: 0; font-size: 0.8em; padding-top: 5px; color: black; text-align: center; }
 
 hr { border-top: 1px solid #7fedc9; }
 
@@ -114,5 +116,3 @@ hr { border-top: 1px solid #7fedc9; }
 img.comment { max-width: 100%; }
 
 .reader-item { margin: 50px 50px; font-size: 6em; }
-
-/*# sourceMappingURL=styles.css.map */

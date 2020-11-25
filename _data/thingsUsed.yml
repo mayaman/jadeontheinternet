@@ -312,12 +312,120 @@
 
 - name: Pink one-shoulder bra top
   id: 26
-  listprice: TODO
+  listprice: 18.31
   cost: 0.00
-  brand: TODO
+  brand: FEMME LUXE
+  from: Borrowed from MaryV
+  new: false
+  category: Clothing
+  link: https://femmeluxe.co.uk/khaki-one-shoulder-crop-top-keeley
+  reference: https://www.elitedaily.com/p/11-one-shoulder-tops-sports-bras-like-charli-damelios-addison-raes-that-are-so-cute-22847377
+  notes: Both Charli and Addison have been SPOTTED wearing these kind of one shoulder sports bra tops on TikTok.
+
+- name: Pink body suit
+  id: 27
+  listprice: 32.00
+  cost: 0.00
+  brand: Calvin Klein
+  from: Borrowed from MaryV
+  new: false
+  category: Clothing
+  link: https://www.amazon.com/Calvin-Klein-Underwear-Womens-Bodysuit/dp/B083LCT1HP
+  reference:
+  notes:
+
+- name: Poreless putty primer
+  id: 28
+  listprice: 4.00
+  cost: 4.00
+  brand: e.l.f.
+  from: Target
+  new: true
+  category: Makeup
+  link: https://www.target.com/p/e-l-f-poreless-putty-primer-0-74oz/-/A-76198655
+  reference: https://www.allure.com/story/elf-cosmetics-magic-act-tik-tok-challenge-poreless-putty-primer
+  notes: Feel like this is making no difference, but maybe I'm applying it wrong?
+
+- name: Infallible Fresh Wear 24HR Foundation
+  id: 29
+  listprice: 15.49
+  cost: 15.49
+  brand: L'Oréal
+  from: Target
+  new: true
+  category: Makeup
+  link: https://www.target.com/p/l-oreal-paris-infallible-24hr-fresh-wear-foundation-with-spf-25-1-fl-oz/-/A-79702491?preselect=75563577#lnk=sametab
+  reference: https://www.popsugar.com/beauty/photo-gallery/47692961/image/47694401/LOr%C3%A9al-Paris-Makeup-Infallible-Up-to-24-Hour-Fresh-Wear-Foundation
+  notes: I haven't put foundation on my face for honestly over a year (except maybe for a couple shoots). I don't like the way it feels.
+
+- name: Total face sponge (beauty blender)
+  id: 30
+  listprice: 5.00
+  cost: 5.00
+  brand: e.l.f.
+  from: Target
+  new: true
+  category: Makeup
+  link: https://www.target.com/p/e-l-f-total-face-sponge/-/A-53436551
+  reference:
+  notes: EVERYONE USES THIS WEIRD THING. MaryV gave me the tip to get it wet first and I am glad she did or I would not have done that. It does make ~ blending ~ easier I think
+
+- name: Infallible Super Slim Liquid Eyeliner
+  id: 31
+  listprice: 9.99
+  cost: 9.99
+  brand: L'Oréal
+  from: CVS
+  new: true
+  category: Makeup
+  link: https://www.cvs.com/shop/l-oreal-paris-infallible-super-slim-liquid-eyeliner-0-034-oz-prodid-1500054
+  reference:
+  notes: Some girl told me to try eyeliner to make myself look better, so here we go.
+
+- name: White leather rivet belt
+  id: 32
+  listprice: N/A
+  cost: 0.00
+  brand: Absolutely Fresh by Prestige
+  from: Borrowed from MaryV
+  new: false
+  category: Accessories
+  link:
+  reference:
+  notes: A little edgy for Jade.
+
+- name: High-waisted wide leg khaki jeans
+  id: 33
+  listprice: 64.00
+  cost: 0.00
+  brand: BDG by Urban Outfitters
   from: Borrowed from MaryV
   new: false
   category: Clothing
   link:
   reference:
-  notes:
+  notes: Glad to have some new pants to incorporate.
+
+- name: Rework Nike one shoulder top
+  id: 34
+  listprice: 65.00
+  cost: 65.00
+  brand: JJ Vintage
+  from: Depop (@jjvintage_)
+  new: false
+  category: Clothing
+  link: https://www.depop.com/products/jjvintage__-rework-nike-one-shoulder-available/?utm_source=generic&utm_campaign=client-share&utm_medium=social&utm_term=mayaman&_branch_match_id=692048794811807034
+  reference: https://www.instagram.com/jjvintage__/?hl=en
+  notes: Glad to have some new pants to incorporate.
+
+- name: Pearl ceramic conical curling wand
+  id: 35
+  listprice: 29.99
+  cost: 29.99
+  brand: REMINGTON
+  from: Target
+  new: true
+  category: Makeup
+  link: https://www.remingtonproducts.com/products/womens/hair-care/curling-wands-and-irons/ci95ac4a-pearl-ceramic-professional-styling-wand.aspx
+  reference:
+  notes: Have had this since MIDDLE SCHOOL I am pretty sure, but barely every use it. I remember seeing it in YouTube beauty videos and being like I NEED IT.
