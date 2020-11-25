@@ -65,22 +65,6 @@
                 {% endfor %}
                 ${{ total }}
             </div>
-            <!-- TOTAL COST OF OF THINGS USED TO DATE -->
-            <!-- <div class="post-data total-cost-to-date">
-                                        <a target="_blank" href="./thingsused.html">
-                                            <span class="post-key">Total cost of things used to date:</span></a>
-                                        {% assign total = 0 %}
-                                        {% assign thingsLimit = page.thingsUsedToDateLimit | plus: 1 %}
-                                        {% for thing in site.data.thingsUsed limit:thingsLimit %}
-                                        {% assign total = total | plus: thing.cost %}
-                                        {% endfor %}
-                                        ${{ total }}
-                                    </div> -->
-            <!-- <div class="post-data money-made">
-                                        <span class="post-key">Total
-                                            money made to date:</span>
-                                        <data>${{ page.moneyMadeToDate }}</data>
-                                    </div> -->
             <div class="post-data num-followers">
                 <span class="post-key">Total number of followers when posted:</span>
                 <data>{{ page.numFollowers }}</data>
