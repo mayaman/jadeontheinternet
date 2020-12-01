@@ -21,21 +21,20 @@ bgimage: https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif
 {% assign floatDirection = "right" %}
 {% endif %}
 
-{% assign numPosts = site.posts | size %}
-{% assign totalDays = numPosts | plus: 1 %}
-{% assign postNumber = totalDays | minus: forloop.index %}
+{%   assign today = post.date | date: '%s'      %}
+{%   assign start = '30-10-2020' | date: '%s'  %}
+{%   assign secondsSince = today | minus: start     %}
+{%   assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
+{%   assign totalDays = hoursSince | divided_by: 24  %}
 
 <div>
     <div class="post-wrapper" style="margin-left: {{ push }}%">
         <span class="post-index">
-            🦋 DAY {{postNumber}}
+            {% assign postTitle = post.title | split: ' ' %}
+            🦋 DAY {{totalDays}} {% if postTitle[1] %} * {{ postTitle[1] }} {% endif %}
         </span>
         {{ post }}
     </div>
-    <!-- <div class="thought">
-        At first, I was debating whether or not I should make Jade intentionally " bad" at TikTok. But a month into
-        this project, I am realizing that there was no need to choose.
-    </div> -->
 </div>
 
 

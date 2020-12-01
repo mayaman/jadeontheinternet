@@ -3,7 +3,7 @@
 <article id="{{ page.date | date: '%Y-%m-%d' }}" class="post">
     <div class="post-container">
         <div class="post-header">
-            <h2>{{ page.title | upcase }}</h2>
+            <h2>{{ page.headline | upcase }}</h2>
             <time>{{ page.date | date: '%B %d, %Y' }} </time>
         </div>
 
@@ -15,10 +15,9 @@
                     allowfullscreen></iframe>
             </div>
         </div>
-
         <br>
         <div class="post-tiktok-link">
-            <a class="arrow-cursor" target="_blank" href="{{ page.tiktokLink }}">* LINK TO VIDEO ON TIKTOK *</a>
+            <a class="arrow-cursor" target="_blank" href="{{ page.tiktokLink }}">* LINK TO POST ON TIKTOK *</a>
         </div>
         <div class="post-col post-data-container">
             <br>
