@@ -5,7 +5,7 @@ id: posts
 bgimage: https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif
 ---
 
-{% for post in site.posts %}
+{% for post in site.categories.daily %}
 
 {% assign day = post.date | date: "%d" %}
 {% assign bigNum = day | plus: post.numFollowers %}
