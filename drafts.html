@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /draftjunkyard/
 title: DRAFT JUNKYARD
 id: drafts
 bgimage: https://media.giphy.com/media/UUHUfrG6NsXzG/giphy.gif
@@ -34,32 +35,4 @@ bgimage: https://media.giphy.com/media/UUHUfrG6NsXzG/giphy.gif
         {% endif %}
         {% endfor %}
     </div>
-
-    <!-- <div class="draft-video-container" style="background-color: blue;">
-
-        OLD WAY OF DOING DRAFTS OKAY BELOW
-
-        {% for draft in site.data.drafts %}
-
-        {% assign numDrafts = site.data.drafts | size %}
-        {% assign mod = forloop.index | modulo: 5 %}
-
-        {% assign value = forloop.index | modulo:2 %}
-        {% if value == 0 %}
-        {% assign push = mod | times: -1 %}
-        {% else %}
-        {% assign push = mod %}
-        {% endif %}
-
-
-        {% assign postNumber = totalDays | minus: forloop.index %}
-        <div class="single-draft-video" style="transform: rotate({{ push }}deg)">
-            <iframe class="draft-embed" width="560" height="315"
-                src="https://www.youtube-nocookie.com/embed/{{ draft.id }}" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <div class="draft-caption">{{ draft.caption }}</div>
-        </div>
-        {% endfor %}
-    </div> -->
 </div>

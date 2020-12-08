@@ -1,13 +1,15 @@
 - name: POSTS CHANNEL
   link: /
+# - name: "*MAILBOX* LETTERS FROM THE EDITOR"
+#   link: /letters/
 - name: INDEX OF THINGS USED
-  link: /thingsused.html
+  link: /indexofthingsused/
 - name: DRAFT JUNKYARD
-  link: /drafts.html
-- name: COMMENT GALLERY
-  link: /commentgallery.html
+  link: /draftjunkyard/
+# - name: COMMENT GALLERY
+#   link: /commentgallery/
 - name: READER
-  link: /reader.html
+  link: /reader/
 # - name: "@JADEONTHEINTERNET?"
 #   link: https://www.tiktok.com/@jadeontheinternet
 #   newtab: true
