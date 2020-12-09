@@ -3,17 +3,31 @@
  *~*~*~*~*~*~*~*~*~*~*/
 body {
   // background-image: url("https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif");
+
+  // COLLAGE BUTTERFLY
+  // background-image: url("https://media.giphy.com/media/3o7WIpQnUpdDNK66ti/giphy.gif");
+
+  background-image: url("https://media.giphy.com/media/ELk3JbUHFexpK/giphy.gif");
+  // background-image: url("/assets/images/butterflies.gif");
+
   background-attachment: fixed;
-  background: rgb(255, 186, 255);
-  background: radial-gradient(
-    rgba(255, 186, 255, 1),
-    rgba(208, 127, 255, 1),
-    rgba(196, 169, 252, 1),
-    rgba(255, 105, 180, 1)
-  );
+  // padding: 25px;
+  margin: 25px 50px;
+  // background: radial-gradient(
+  //   rgba(255, 186, 255, 1),
+  //   rgba(208, 127, 255, 1),
+  //   rgba(196, 169, 252, 1),
+  //   rgba(255, 105, 180, 1)
+  // );
 
   color: black;
   min-height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 25px 10px;
+  }
 }
 
 main {
@@ -52,15 +66,6 @@ a:active {
   );
 }
 
-.link#bookshelf {
-  background-image: url("https://media.giphy.com/media/1TpGKApbHmkZa/giphy.gif");
-}
-
-.link#commentgallery {
-  // background-image: url("https://media.giphy.com/media/1TpGKApbHmkZa/giphy.gif");
-  background-image: url("https://media.giphy.com/media/J2P5Izk0DJFbG/giphy.gif");
-}
-
-.link#blog {
-  background-image: url("https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif");
+.inner-container {
+  background: #c4a9fc;
 }

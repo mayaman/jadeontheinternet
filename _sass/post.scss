@@ -4,11 +4,16 @@
 
 .post-wrapper {
   margin: 0px 0px 150px 0px;
-  max-width: 550px;
+  max-width: 500px;
   display: block;
 }
 
-article {
+@media only screen and (max-width: 768px) {
+  .post-wrapper {
+    max-width: 90%;
+    margin: auto auto 150px auto !important;
+    display: block;
+  }
 }
 
 .post-index {
@@ -17,17 +22,11 @@ article {
 }
 
 .post-container {
-  // background: #d5ff53;
   background: #ffffff;
   padding: 15px;
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-  article {
-    max-width: 100%;
-  }
-}
 .post-header {
   margin-bottom: 15px;
 }
@@ -36,14 +35,8 @@ time {
   font-style: italic;
 }
 
-.post-youtube-embed {
-  // margin: 1em 0px;
-  // float: left;
-}
-
 .post-youtube-embed iframe {
   max-width: 175px;
-  // max-width: 80%;
 }
 
 a:hover,
@@ -61,16 +54,8 @@ a:active {
   font-weight: bold;
 }
 
-.post-col-container {
-  // display: flex;
-}
-
-.post-col {
-  flex: 4;
-  // border: 2px solid yellow;
-}
-
 .post-data-container {
+  margin-top: 5px;
 }
 
 .post-data-list {
@@ -99,15 +84,4 @@ summary {
 
 .post-writing-container {
   display: block;
-}
-
-.thought {
-  background: white;
-  border-radius: 50%;
-  text-align: center;
-  display: inline-block;
-  padding: 50px;
-  margin: 50px;
-  max-width: 300px;
-  position: relative;
 }

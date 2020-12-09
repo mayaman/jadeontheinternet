@@ -1,7 +1,7 @@
 - name: POSTS CHANNEL
-  link: /
-# - name: "*MAILBOX* LETTERS FROM THE EDITOR"
-#   link: /letters/
+  link: /posts/
+- name: "LETTERS FROM THE EDITOR"
+  link: /letters/
 - name: INDEX OF THINGS USED
   link: /indexofthingsused/
 - name: DRAFT JUNKYARD
@@ -10,6 +10,8 @@
 #   link: /commentgallery/
 - name: READER
   link: /reader/
+- name: LEAVE A NOTE
+  link: https://docs.google.com/document/d/1Wu6lgpbNWtLoXtVI4oWVXRxtE-kVW7BThtBS9H0dia0/edit?usp=sharing
 # - name: "@JADEONTHEINTERNET?"
 #   link: https://www.tiktok.com/@jadeontheinternet
 #   newtab: true

@@ -24,7 +24,7 @@ bgimage: https://media.giphy.com/media/UUHUfrG6NsXzG/giphy.gif
 
         {% assign postNumber = totalDays | minus: forloop.index %}
         <div class="single-draft-video" style="transform: rotate({{ push }}deg)">
-            <iframe class="draft-embed" width="560" height="315"
+            <iframe loading="lazy" class="draft-embed" width="560" height="315"
                 src="https://www.youtube-nocookie.com/embed/{{ draft.id }}" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>

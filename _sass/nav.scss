@@ -5,6 +5,9 @@ nav {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+  background: white;
+  padding: 15px;
+  // max-height: 25px;
 }
 
 a.tiktok-link {
@@ -18,35 +21,44 @@ a.tiktok-link {
   vertical-align: text-bottom;
 }
 
+@media only screen and (max-width: 768px) {
+  .nav-dropdown {
+    display: none;
+  }
+}
+
 .nav-dropdown:hover {
   cursor: pointer;
 }
 
 .nav-dropdown:hover > .nav-pages {
-  visibility: visible;
+  display: block;
+  // visibility: visible;
+  // opacity: 1;
 }
 
 .nav-pages {
-  visibility: hidden;
-  position: fixed;
-  right: 15px;
-  top: 35px;
+  display: none;
+  // visibility: hidden;
+  // opacity: 0;
+  // transition: visibility 0.5s;
+  position: relative;
+  z-index: 9999;
 }
 
 .nav-pages a {
-  // background: hotpink;
   color: black;
   margin: 0px 0px 0px 15px;
   vertical-align: text-bottom;
   display: block;
   padding: 5px 0px;
   text-decoration: none;
-  font-size: 0.75em;
+  font-size: 1em;
 }
 
 .nav-pages a:hover {
   // background: #c4a9fc;
-  color: white;
+  color: #c4a9fc;
   background-image: none;
 }
 

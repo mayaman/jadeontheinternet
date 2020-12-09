@@ -1,6 +1,6 @@
 ---
-layout: default
-published: true
+layout: letter
+published: false
 imgPath: 2020DECEMBER
 ---
 

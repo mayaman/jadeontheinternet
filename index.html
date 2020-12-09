@@ -1,41 +1,11 @@
 ---
-layout: default
-title: POSTS CHANNEL
-id: posts
-bgimage: https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif
+layout: splash
+title: WHO IS SHE?
+id: splash
 ---
 
-{% for post in site.categories.daily %}
-
-{% assign day = post.date | date: "%d" %}
-{% assign bigNum = day | plus: post.numFollowers %}
-{% assign random = bigNum  | modulo: 15 %}
-
-{% assign value = forloop.index | modulo:2 %}
-{% if value == 0 %}
-{% assign push = random | plus: 40 %}
-{% assign floatDirection = "left" %}
-
-{% else %}
-{% assign push = random %}
-{% assign floatDirection = "right" %}
-{% endif %}
-
-{%   assign today = post.date | date: '%s'      %}
-{%   assign start = '30-10-2020' | date: '%s'  %}
-{%   assign secondsSince = today | minus: start     %}
-{%   assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
-{%   assign totalDays = hoursSince | divided_by: 24  %}
-
-<div>
-    <div class="post-wrapper" style="margin-left: {{ push }}%">
-        <span class="post-index">
-            {% assign postTitle = post.title | split: ' ' %}
-            🦋 DAY {{totalDays}} {% if postTitle[1] %} * {{ postTitle[1] }} {% endif %}
-        </span>
-        {{ post }}
-    </div>
+<div class="splash-container">
+    <div>WHO IS @JADEONTHEINTERNET?</div>
+    <br>
+    <a class="enter-button" href="/posts/">*ENTER*</a>
 </div>
-
-
-{% endfor %}
