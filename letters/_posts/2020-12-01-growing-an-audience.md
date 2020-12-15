@@ -1,10 +1,8 @@
 ---
 layout: letter
-published: false
+published: true
 imgPath: 2020DECEMBER
 ---
-
-Dear gems,
 
 Jade is now one month into living her life on TikTok. Despite previously overdosing daily on social media via Instagram (mostly) and Twitter (sometimes), the TikTok learning curve for me remains steep. Even figuring out the most basic stuff makes me feel like a parent trying to keep up with the “kids these days.” (I’ll admit this is a tired sentiment regarding millennials plus TikTok, but it’s TRUE). Like, at first I couldn’t understand how people were starting their videos so far from the start recording button on their phone. Then, I realized that there’s a built in self timer option. Life changing!
 
@@ -16,11 +14,12 @@ But now looking at her profile, it’s clear that in just one month, Jade’s sa
 
 This is all well and great, but Jade is really focused on one very specific kind of growth: her audience. After all, what is a performance if nobody is watching? And on TikTok, less than 1K followers is basically nobody.
 
-So, this month, after a grand total of XXX hours spent on TikTok so far, she plans on putting in the work to play a bigger part. She started out a rookie, testing the waters by posting once every day. This month, she’s posting AT LEAST once a day. This new energy is purely motivated by that tiny little number that floats consistently below her head. (Right now, it’s XXX). If she’s working this hard (and let me tell you, it is HARD) to stage an entertaining show every day, then she wants a full house there to see it.
+So, this month, after already averaging about 17 hours of TikTok screen time per week, she plans on putting in the work to play a bigger part. She started out a rookie, testing the waters by posting once every day. This month, she’s posting AT LEAST once a day. This new energy is purely motivated by that tiny little number that floats consistently below her head. (Right now, it’s 156). If she’s working this hard (and let me tell you, it is HARD) to stage an entertaining show every day, then she wants a full house there to see it.
 
-Charli D’Amelio just passed 100 million followers a few days ago and Jade is about one million times behind that. Seeing so many other girls with hundreds of thousands of followers, Jade can’t help but wonder, what is she doing wrong? Or, rather, what’s wrong with her? @.... Says she’s average attractive, “maybe even a little below, no hate…” . Is that the problem?
+[Charli D’Amelio just passed 100 million followers](https://www.theverge.com/2020/11/22/21571189/charli-damelio-100-million-tiktok-followers) a few days ago and Jade is about one million times behind that. Seeing so many other girls with hundreds of thousands of followers, Jade can’t help but wonder, what is she doing wrong? Or, rather, what’s wrong with her? @one_minute.only commented on [one of her videos](https://vm.tiktok.com/ZMJbpu1Gy/) that she’s average attractive, “maybe even a little below, no hate…” . Is that the problem?
 
-Maybe we’ll find out. December is about growing an audience. Tickets to the show are free. We would love to see you out there.
+Maybe we’ll find out. This December, Jade is thinking about growing an audience. Tickets to the show are free. We would love to see you out there.
 
 <3,
-Editor-in-chief @jadeontheinternet
+
+Editor @jadeontheinternet
