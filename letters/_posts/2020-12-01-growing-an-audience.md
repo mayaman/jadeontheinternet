@@ -16,9 +16,9 @@ This is all well and great, but Jade is really focused on one very specific kind
 
 So, this month, after already averaging about 17 hours of TikTok screen time per week, she plans on putting in the work to play a bigger part. She started out a rookie, testing the waters by posting once every day. This month, she’s posting AT LEAST once a day. This new energy is purely motivated by that tiny little number that floats consistently below her head. (Right now, it’s 156). If she’s working this hard (and let me tell you, it is HARD) to stage an entertaining show every day, then she wants a full house there to see it.
 
-[Charli D’Amelio just passed 100 million followers](https://www.theverge.com/2020/11/22/21571189/charli-damelio-100-million-tiktok-followers) a few days ago and Jade is about one million times behind that. Seeing so many other girls with hundreds of thousands of followers, Jade can’t help but wonder, what is she doing wrong? Or, rather, what’s wrong with her? @one_minute.only commented on [one of her videos](https://vm.tiktok.com/ZMJbpu1Gy/) that she’s average attractive, “maybe even a little below, no hate…” . Is that the problem?
+[Charli D’Amelio just passed 100 million followers](https://www.theverge.com/2020/11/22/21571189/charli-damelio-100-million-tiktok-followers) a few days ago and Jade is about one million times behind that. Seeing so many other girls with hundreds of thousands of followers, Jade can’t help but wonder, what is she doing wrong? Or, rather, what’s wrong with her? @one_minute.only commented on [one of her videos](https://vm.tiktok.com/ZMJbpu1Gy/) that she’s average attractive, “maybe even a little below, no hate…” . Is that the problem? It's a mental trap, living online for the approval of strangers. I'm thinking about Taylor Swift and how, with surprising candor, she talks about this in her Netflix documentary.
 
-Maybe we’ll find out. This December, Jade is thinking about growing an audience. Tickets to the show are free. We would love to see you out there.
+Maybe we’ll find out. This December, Jade is thinking about growing her audience for her free, no ticket required show. We would love to see you out there.
 
 <3,
 

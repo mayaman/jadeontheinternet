@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*~*~*~*~*~*~*~*~*~*~* 🦋 GLOBAL ~*~*~*~*~*~*~*~*~*~*/
-body { background-image: url("https://media.giphy.com/media/ELk3JbUHFexpK/giphy.gif"); background-attachment: fixed; margin: 25px 50px; color: black; min-height: 100vh; }
+body { background-image: url("https://media.giphy.com/media/ELk3JbUHFexpK/giphy.gif"); background-attachment: fixed; margin: 25px 50px; background-repeat: no-repeat; background-size: 100vw 100vh; color: black; min-height: 100vh; }
 
 @media only screen and (max-width: 768px) { body { margin: 25px 10px; } }
 main { margin: 50px 0px; }
