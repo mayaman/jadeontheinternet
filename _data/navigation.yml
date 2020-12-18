@@ -6,12 +6,14 @@
   link: /indexofthingsused/
 - name: DRAFT JUNKYARD
   link: /draftjunkyard/
-# - name: COMMENT GALLERY
-#   link: /commentgallery/
+- name: COMMENT GALLERY
+  link: /commentgallery/
 - name: READER
   link: /reader/
 - name: LEAVE A NOTE
-  link: https://docs.google.com/document/d/1Wu6lgpbNWtLoXtVI4oWVXRxtE-kVW7BThtBS9H0dia0/edit?usp=sharing
+  link: /leaveanote/
+- name: EXIT
+  link: /
 # - name: "@JADEONTHEINTERNET?"
 #   link: https://www.tiktok.com/@jadeontheinternet
 #   newtab: true

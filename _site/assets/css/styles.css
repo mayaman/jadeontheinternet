@@ -1,9 +1,8 @@
 @charset "UTF-8";
 /*~*~*~*~*~*~*~*~*~*~* 🦋 GLOBAL ~*~*~*~*~*~*~*~*~*~*/
-body { background-image: url("https://media.giphy.com/media/ELk3JbUHFexpK/giphy.gif"); background-attachment: fixed; margin: 25px 50px; background-repeat: no-repeat; background-size: 100vw 100vh; color: black; min-height: 100vh; }
+body { background-image: url("https://media.giphy.com/media/ELk3JbUHFexpK/giphy.gif"); background-attachment: fixed; background-repeat: no-repeat; background-size: cover; color: black; min-height: 100vh; margin: 0px; }
 
-@media only screen and (max-width: 768px) { body { margin: 25px 10px; } }
-main { margin: 50px 0px; }
+main { margin: 50px 50px; }
 
 h1, h2, h3, h4, h5, h6 { margin: 0px; }
 
@@ -15,14 +14,29 @@ a.arrow-cursor:hover { cursor: alias; }
 
 a:hover, a:active { background-image: linear-gradient(to bottom, transparent 0.19em, #c4a9fc 0.19em, #c4a9fc 0.91em, transparent 0.91em); }
 
-.inner-container { background: #c4a9fc; }
+.inner-container { margin: 50px 50px; }
 
-.splash-container { text-align: center; font-size: 3em; font-weight: bold; position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%); }
+@media only screen and (max-width: 768px) { .inner-container { margin: 25px 10px; } }
+.comingsoon { font-size: 2em; font-weight: bold; color: black; text-align: center; width: 100%; }
 
-.enter-button { background: white; }
+.splash-container { text-align: center; font-size: 3em; font-weight: bold; width: 100vw; height: 100vh; overflow: hidden; }
+
+.enter-button { padding: 5px; }
+
+.splash-cutout { position: absolute; display: flex; justify-content: center; align-items: center; overflow: hidden; margin: 0px; border: 2px dotted black; }
+
+.splash-cutout img, .splash-cutout video { max-width: 100%; }
+
+#enter { position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%); background: #ffffff75; border: 2px dotted black; padding: 15px; }
+
+#enter:hover { background: #c4a9fc; }
+
+#enter a { text-decoration: none; }
+
+#splash-footer { position: absolute; width: 100%; bottom: 0; font-size: 24px; border-bottom: 0px; }
 
 /*~*~*~*~*~*~*~*~*~*~* 🦋 NAV ~*~*~*~*~*~*~*~*~*~*/
-nav { display: flex; justify-content: space-between; font-weight: bold; background: white; padding: 15px; }
+nav { display: flex; justify-content: space-between; font-weight: bold; padding: 15px; background: #ffffff75; border: 2px dotted black; }
 
 a.tiktok-link { cursor: alias; font-size: 1.5em; }
 
@@ -35,9 +49,9 @@ a.tiktok-link { cursor: alias; font-size: 1.5em; }
 
 .nav-pages { display: none; position: relative; z-index: 9999; }
 
-.nav-pages a { color: black; margin: 0px 0px 0px 15px; vertical-align: text-bottom; display: block; padding: 5px 0px; text-decoration: none; font-size: 1em; }
+.nav-pages a { color: black; margin: 5px 0px 5px 15px; vertical-align: text-bottom; display: block; text-decoration: none; font-size: 1em; display: inline-block; }
 
-.nav-pages a:hover { color: #c4a9fc; background-image: none; }
+.nav-pages a:hover { background-image: linear-gradient(to bottom, transparent 0.19em, #c4a9fc 0.19em, #c4a9fc 0.91em, transparent 0.91em); }
 
 @media only screen and (max-width: 768px) { nav span { font-size: 0.75em; display: block; } }
 #nav-butterfly { position: absolute; left: 50%; transform: translate(-50%, 0px); }
@@ -74,7 +88,7 @@ summary { outline: none; cursor: pointer; }
 
 .post-writing-container { display: block; }
 
-.things-used-container { width: 75%; margin: auto; display: block; }
+.things-used-container { width: 100%; margin: auto; display: block; }
 
 .table-container { height: 70vh; overflow: scroll; }
 
@@ -86,11 +100,11 @@ summary { outline: none; cursor: pointer; }
 
 #thingsused-table td img { width: 50px; }
 
-.cost-stat { display: block; width: fit-content; padding: 15px; margin: 15px 0px; font-weight: bold; }
+.cost-stat { width: fit-content; padding: 30px; margin: 15px 30px 0 0; font-weight: bold; border-radius: 50%; display: inline-block; }
 
-#total-cost { background: #7fedc9; }
+#total-cost { background: lightpink; }
 
-#money-made { background: #dbf989; }
+#money-made { background: lightblue; }
 
 /*~*~*~*~*~*~*~*~*~*~* 🦋 DRAFTS ~*~*~*~*~*~*~*~*~*~*/
 .draft-entry-container { display: block; margin: auto; max-width: 80%; }
@@ -131,4 +145,6 @@ img.comment { max-width: 100%; }
 
 .letter-container { width: 47%; margin: auto; }
 
-footer { background: black; color: white; padding: 5px 0px; }
+#notes-google-doc { width: 100%; min-height: 75vh; border: none; }
+
+footer { border-bottom: 2px dotted black; }

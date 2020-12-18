@@ -5,6 +5,7 @@ title: READER
 id: reader
 ---
 <div class="reader-container">
+    {% include comingsoon.html %}
     <ul>
         {% for item in site.data.reader %}
         <li class="reader-item"><a class="arrow-cursor" target="_blank" href="{{item.link}}">{{ item.title }}</a></li>

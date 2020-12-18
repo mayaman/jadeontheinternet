@@ -1,5 +1,5 @@
 .things-used-container {
-  width: 75%;
+  width: 100%;
   margin: auto;
   display: block;
 }
@@ -54,17 +54,18 @@
 }
 
 .cost-stat {
-  display: block;
   width: fit-content;
-  padding: 15px;
-  margin: 15px 0px;
+  padding: 30px;
+  margin: 15px 30px 0 0;
   font-weight: bold;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 #total-cost {
-  background: #7fedc9;
+  background: lightpink;
 }
 
 #money-made {
-  background: #dbf989;
+  background: lightblue;
 }

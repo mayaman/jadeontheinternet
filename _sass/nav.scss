@@ -5,9 +5,11 @@ nav {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
-  background: white;
+  // background: #ffffff69;
   padding: 15px;
   // max-height: 25px;
+  background: #ffffff75;
+  border: 2px dotted black;
 }
 
 a.tiktok-link {
@@ -48,18 +50,26 @@ a.tiktok-link {
 
 .nav-pages a {
   color: black;
-  margin: 0px 0px 0px 15px;
+  margin: 5px 0px 5px 15px;
   vertical-align: text-bottom;
   display: block;
-  padding: 5px 0px;
+  // padding: 5px 0px;
   text-decoration: none;
   font-size: 1em;
+  display: inline-block;
 }
 
 .nav-pages a:hover {
   // background: #c4a9fc;
-  color: #c4a9fc;
-  background-image: none;
+  // color: #c4a9fc;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0.19em,
+    #c4a9fc 0.19em,
+    #c4a9fc 0.91em,
+    transparent 0.91em
+  );
+  // background-image: none;
 }
 
 nav a.current {
