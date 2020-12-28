@@ -265,7 +265,7 @@
 - name: Vintage high-waisted blue jeans
   id: 22
   listprice: 98.00
-  cost: 98.00
+  cost: 0.00
   brand: L.L.Bean
   from: Walk The West Vintage
   new: false
@@ -289,7 +289,7 @@
 - name: Padded up strapless bra
   id: 24
   listprice: 54.50
-  cost: 54.50
+  cost: 0.00
   brand: Victoria's Secret
   from: Victoria's Secret
   new: true
@@ -421,7 +421,7 @@
 - name: Pearl ceramic conical curling wand
   id: 35
   listprice: 29.99
-  cost: 29.99
+  cost: 0.00
   brand: REMINGTON
   from: Target
   new: true
@@ -613,3 +613,87 @@
   link: https://www.claires.com/us/gold-10mm-tube-hoop-earrings-144465.html#q=gold+hoop+earrings&prefn1=refinementColor&prefv1=Gold&start=40&sz=36
   reference:
   notes: These little hoops are pretty subtle... could go with everything
+
+- name: Light pink v-neck sweater
+  id: 51
+  listprice: IDK
+  cost: 0.00
+  brand: Forever 21
+  from: My high school bedroom
+  new: false
+  category: Clothing
+  link: N/A
+  reference:
+  notes: Raiding the clothes that are left from my middle school / high school days for Jade.
+
+- name: Lime green halter bra
+  id: 52
+  listprice: IDK
+  cost: 0.00
+  brand: Natalie Dancewear
+  from: My high school bedroom
+  new: false
+  category: Clothing
+  link: N/A
+  reference:
+  notes: This was definitely something I would have worn to dance conventions... also feels very Charli/Addison to me.
+
+- name: Yellow sweater
+  id: 53
+  listprice: IDK
+  cost: 0.00
+  brand: Zara
+  from: My high school bedroom
+  new: false
+  category: Clothing
+  link: N/A
+  reference:
+  notes: Found from high school. Not super on brand for Jade, but close enough.
+
+- name: Bambi Eye Mascara
+  id: 54
+  cost: 10.99
+  listprice: 10.99
+  brand: L'Oréal
+  from: Target
+  new: true
+  category: Makeup
+  link: https://www.target.com/p/l-39-oreal-paris-bambi-eye-washable-mascara-lasting-volume-black-0-28-fl-oz/-/A-76440284
+  reference:
+  notes: Target had a sign about this that said "TRENDING" and I needed a less clumpy mascara, so I bought it.
+
+- name: Brow tamer
+  id: 55
+  cost: 10.00
+  listprice: 10.00
+  brand: Pixi by Petra
+  from: Target
+  new: true
+  category: Makeup
+  link: https://www.target.com/p/pixi-by-petra-eyebrow-enhancer-light-clear-0-63oz/-/A-18776935?ref=tgt_adv_XS000000&AFID=google_pla_df&fndsrc=tgtao&DFA=71700000012735304&CPNG=PLA_Beauty%2BPersonal+Care%2BShopping_Local&adgroup=SC_Health%2BBeauty&LID=700000001170770pgs&LNM=PRODUCT_GROUP&network=g&device=c&location=9006587&targetid=pla-897661776657&ds_rl=1246978&ds_rl=1248099&gclid=Cj0KCQiA_qD_BRDiARIsANjZ2LCUgKPvLJzglvQawOz-F78nfNXOltPxF_kVPF8z0DSinX5nAC4LlQ8aAqbSEALw_wcB&gclsrc=aw.ds
+  reference:
+  notes: Needed something for my eyebrows, because I currently own nothing and I saw this girl @kornelia.ski she used a Pixi product.
+
+- name: Lip plumping glass (Sparkling Rosé)
+  id: 56
+  listprice: 6.00
+  cost: 6.00
+  brand: e.l.f
+  from: Target
+  new: true
+  category: Makeup
+  link: https://www.target.com/p/e-l-f-lip-plumping-gloss/-/A-52528135
+  reference:
+  notes: Trying to get into the plumping game.
+
+- name: Rose Gold Rhinestone Pearl Snap Hair Clips - 2 Pack
+  id: 57
+  listprice: 8.99
+  cost: 0.00
+  brand: Claire's
+  from: Claire's
+  new: true
+  category: Accessories
+  link: https://www.claires.com/us/rose-gold-rhinestone-pearl-snap-hair-clips---2-pack-256243.html#q=snap%2Bclips&lang=en_US&start=14
+  reference:
+  notes: It was buy three, get three free! Had already bought three pieces of jewelry, so picked these out too.
