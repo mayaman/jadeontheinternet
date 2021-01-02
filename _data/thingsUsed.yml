@@ -3,100 +3,114 @@ accessories:
     cost: 30.00
     brand: N/A
     from: Awoke Vintage
-    category: Accessories
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: Part of Jade's staple look, she wears this whenever she appears on screen.
 
   - name: Small gold hoop earrings
     cost: 5.99
     brand: Claire's
     from: Claire's
-    category: Accessories
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: These little hoops are pretty subtle... could go with everything
 
   - name: White leather rivet belt
     cost: 0.00
     brand: Absolutely Fresh by Prestige
     from: Borrowed from MaryV
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: A little edgy for Jade tbh.
+
+  - name: Pearl earrings
+    cost: 0.00
+    brand: N/A
+    from: My mom
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6913249078012923142
+    notes: She gave me these recently because my new piercings were getting irritated from bad metals.
+
+  - name: Rhinestone studs
+    cost: 0.00
+    brand: N/A
+    from: My childhood bedroom
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6913249078012923142
+    notes: Found these on my last thanksgiving trip.
 
 hair:
   - name: Hair straightener
     cost: 0.00
     brand: CHI for Ulta Beauty
     from: My mom's bathroom
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: Straightening my hair takes me back to middle school in an aggressive way.
 
   - name: Mini rubber hair elastics
     cost: 0.00
     brand: N/A
     from: In my childhood home
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: These are useful to do some of the hairstyles I see on TikTok (like the two tiny side braids)... will probably buy more.
+
+  - name: Hair elastics (1 pack of 18)
+    cost: 4.39
+    brand: N/A
+    from: CVS
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6913249078012923142
+    notes: These will hopefully last me a while.
 
 makeup:
   - name: 16HR Camo Concealer
     cost: 6.00
     brand: e.l.f.
     from: Target
-    category: Makeup
-    reference: https://brunchandgloss.com/tiktok-made-me-buy-it-e-l-f-concealer/
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: This was recommended in a lot of "TikTok made me buy it" makeup videos... apparently a good dupe for popular Tarte concealer that's way more expensive.
 
   - name: Eyelash curler
     cost: 4.99
     brand: Revlon
     from: Local drugstore
-    category: Makeup
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: My eyelashes are the stick straight Asian kind. Need this for them to be seen at all.
 
   - name: Cloud paint cream blush (Dusk)
     cost: 18.00
     brand: Glossier
     from: Glossier NYC store
-    category: Makeup
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: I think a lot about Glossier's marketing tactics.
 
   - name: Baked highlighter (Moonlight pearls)
     cost: 4.00
     brand: e.l.f
     from: Target
-    category: Makeup
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: Everyone on TikTok looks glossy and glazed!!!
 
   - name: Bambi Eye Mascara
     cost: 10.99
     brand: L'Oréal
     from: Target
-    category: Makeup
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: Target had a sign about this that said "TRENDING" and I needed a less clumpy mascara, so I bought it.
 
   - name: Infallible Super Slim Liquid Eyeliner
     cost: 9.99
     brand: L'Oréal
     from: CVS
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: This is very much something I wore in my teenage years.
 
-  - name: Lip plumping glass (Sparkling Rosé)
+  - name: Lip plumping gloss (Sparkling Rosé)
     cost: 6.00
     brand: e.l.f
     from: Target
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: Got the plumping one because it seems like blown up lips are in...
 
   - name: Brow tamer
-    listprice: 10.00
+    cost: 10.00
     brand: Pixi by Petra
     from: Target
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: Needed something for my eyebrows, because I currently own nothing and I saw this girl @kornelia.ski she used a Pixi product.
 
 clothing:
@@ -104,20 +118,33 @@ clothing:
     cost: 0.00
     brand: Victoria's Secret
     from: Victoria's Secret
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: The first time I have worn this in ages. I think I originally bought in in high school for a strapless homecoming dress.
 
   - name: Knit tube top
     cost: 0.00
     brand: TODO
     from: Borrowed from MaryV
-    link:
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: I tried to put this one without a bra and was like absolutely not, Jade would be embarrassed by her lack to show here.
 
   - name: High-waisted wide leg khaki jeans
     cost: 0.00
     brand: BDG by Urban Outfitters
     from: Borrowed from MaryV
-    reference:
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: These fit kind of awkwardly... need to get her other pants.
+
+  - name: Tie dye tank top (Bought in a set of 3)
+    cost: 20.00
+    brand: N/A
+    from: Depop (@biannca_)
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6913249078012923142
+    notes: These are VERY TikTok and also very tiny.
+
+  - name: Light green tie dye sweat set
+    cost: 60.00
+    brand: N/A
+    from: Depop (@biannca_)
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6913249078012923142
+    notes: Do I even need to tell you that the tie dye sweat set is a TikTok bred iconic look?
