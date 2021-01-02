@@ -1,19 +1,20 @@
 - name: POSTS CHANNEL
   link: /posts/
-- name: "LETTERS FROM THE EDITOR"
-  link: /letters/
+- name: "LETTER FROM THE EDITOR"
+  link: /editorsletter/
 - name: INDEX OF THINGS USED
   link: /indexofthingsused/
 - name: DRAFT JUNKYARD
   link: /draftjunkyard/
-- name: COMMENT GALLERY
-  link: /commentgallery/
 - name: READER
   link: /reader/
 - name: LEAVE A NOTE
   link: /leaveanote/
 - name: EXIT
   link: /
-# - name: "@JADEONTHEINTERNET?"
-#   link: https://www.tiktok.com/@jadeontheinternet
-#   newtab: true
+# - name: COMMENT GALLERY
+#   link: /commentgallery/
+# - name: "LETTERS FROM THE EDITOR"
+#   link: /letters/
+# - name: ARCHIVE
+#   link: /archived-posts/

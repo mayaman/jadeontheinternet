@@ -1,11 +1,11 @@
 ---
 layout: default
-permalink: /posts/
-title: POSTS CHANNEL
+permalink: /archived-posts/
+title: ARCHIVED POSTS CHANNEL
 id: posts
 ---
 
-{% for post in site.categories.tiktok %}
+{% for post in site.categories.archive %}
 
 {% assign day = post.date | date: "%d" %}
 {% assign bigNum = day | plus: post.numFollowers %}
@@ -22,7 +22,7 @@ id: posts
 {% endif %}
 
 {%   assign today = post.date | date: '%s'      %}
-{%   assign start = '01-01-2021' | date: '%s'  %}
+{%   assign start = '30-10-2020' | date: '%s'  %}
 {%   assign secondsSince = today | minus: start     %}
 {%   assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
 {%   assign totalDays = hoursSince | divided_by: 24  %}
@@ -35,7 +35,4 @@ id: posts
     {{ post }}
 </div>
 
-<span><a class="arrow-cursor" href="https://whoisjadeontheinter.net/archived-posts/">* VIEW ARCHIVED POSTS FROM THE
-        PREVIOUS ITERATION
-        HERE *</a></span>
 {% endfor %}

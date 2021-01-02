@@ -22,60 +22,35 @@
         <div class="post-writing">
             {{ content }}
         </div>
-        <details>
-            <summary>Post info...</summary>
-            <div class="post-col post-data-container">
-                <div class="post-data references">
-                    <span class="post-key">References:</span>
-                    <ul class="post-data-list references-list">
-                        {% for ref in page.references %}
-                        {% assign splitlink = ref | split: '@' %}
-                        {% assign handle = splitlink[1] | split: '/' %}
-                        <li>
-                            <a class="arrow-cursor" target="_blank" href="{{ ref }}">@{{ handle[0] }}</a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="post-data filters">
-                    <span class="post-key">Filters/effects:</span>
-                    <ul class="post-data-list filter-list">
-                        {% for filter in page.filters %}
-                        <li>{{ filter }}
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <!-- LIST OF THINGS USED -->
-                <div class="post-data things-used">
-                    <a href="/thingsused.html/"><span class="post-key">Things
-                            used:</span></a>
-                    <ul class="post-data-list things-list">
-                        {% for currentThing in page.thingsUsed %}
-                        {% assign thing = site.data.thingsUsed[currentThing.id]  %}
-                        <li><data value="{{ thingId }}">{{ thing.name }}</data>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <!-- TOTAL COST OF OF THINGS USED IN THIS VIDEO -->
-                <div class="post-data total-cost-this-video">
-                    <span class="post-key">Total cost of things used in this video:</span>
-                    {% assign total = 0 %}
-                    {% for currentThing in page.thingsUsed %}
-                    {% assign thing = site.data.thingsUsed[currentThing.id]  %}
-                    {% assign total = total | plus: thing.cost %}
-                    {% endfor %}
-                    ${{ total }}
-                </div>
-                <div class="post-data num-followers">
-                    <span class="post-key">Total number of followers when posted:</span>
-                    <data>{{ page.numFollowers }}</data>
-                </div>
-                <div class="post-data num-likes">
-                    <span class="post-key">Total number of likes when posted:</span> <data>{{ page.numLikes }}</data>
-                </div>
+        <div class="post-col post-data-container">
+            <div class="post-data num-followers">
+                <span class="post-key">Total number of followers when posted:</span>
+                <data>{{ page.numFollowers }}</data>
             </div>
-        </details>
+            <div class="post-data num-likes">
+                <span class="post-key">Total number of likes when posted:</span> <data>{{ page.numLikes }}</data>
+            </div>
+            <div class="post-data references">
+                <span class="post-key">References:</span>
+                <ul class="post-data-list references-list">
+                    {% for ref in page.references %}
+                    {% assign splitlink = ref | split: '@' %}
+                    {% assign handle = splitlink[1] | split: '/' %}
+                    <li>
+                        <a class="arrow-cursor" target="_blank" href="{{ ref }}">@{{ handle[0] }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="post-data filters">
+                <span class="post-key">Filters/effects:</span>
+                <ul class="post-data-list filter-list">
+                    {% for filter in page.filters %}
+                    <li>{{ filter }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
     </div>
 </article>

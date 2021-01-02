@@ -8,16 +8,23 @@ id: thingsused
 <div class="things-used-container">
     {% assign total = 0 %}
     {% assign thingsLimit = page.thingsUsedToDateLimit | plus: 1 %}
-    {% for thing in site.data.thingsUsed %}
-    {% assign total = total | plus: thing.cost %}
+    {% for type in site.data.thingsUsed %}
+    {% for object in type %}
+    {% for item in object %}
+    {% if item.name %}
+
+    {% assign total = total | plus: item.cost %}
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
     {% endfor %}
     <div class="table-container">
         <table id="thingsused-table">
             <thead>
                 <tr>
-                    <!-- <th>
-            IMAGE
-        </th> -->
+                    <th>
+                        IMAGE
+                    </th>
                     <th>
                         NAME
                     </th>
@@ -37,9 +44,13 @@ id: thingsused
             </thead>
 
             <tbody>
-                {% for item in site.data.thingsUsed %}
+                {% for type in site.data.thingsUsed %}
+                {% for object in type %}
+                {% for item in object %}
+                {% if item.name %}
+
                 <tr>
-                    <!-- <td><img src="/assets/images/loading.gif" alt=""></td> -->
+                    <td><img src="/assets/images/loading.gif" alt=""></td>
                     <td>{{ item.name }}</td>
                     <td>{{ item.brand }}</td>
                     <td>{{ item.from }}</td>
@@ -49,7 +60,17 @@ id: thingsused
                     <td>${{ integral }}.{{ fractional }}</td>
                     <td>{{ item.notes }}</td>
                 </tr>
+                {% else %}
+                <tr style="background: hotpink;">
+                    <td colspan="6"> *{{ item | upcase }}* </td>
+                </tr>
+
+                {% endif %}
+
                 {% endfor %}
+                {% endfor %}
+                {% endfor %}
+
             </tbody>
         </table>
     </div>
