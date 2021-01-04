@@ -51,6 +51,17 @@
                     {% endfor %}
                 </ul>
             </div>
+            <div class="post-data drafts">
+                <span class="post-key">Select drafts:</span>
+                <ul class="post-data-list references-list">
+                    {% for draft in page.drafts %}
+                    <li>
+                        <a class="arrow-cursor" target="_blank"
+                            href="https://www.youtube.com/watch?v={{ draft.id }}">{{draft.caption}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 </article>
