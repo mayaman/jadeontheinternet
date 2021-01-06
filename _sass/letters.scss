@@ -2,12 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
 
-.letter-thumbnail-container {
   max-width: 47%;
   position: relative;
-  margin: 25px;
+  margin: auto;
   font-size: 1em;
 }
 
@@ -32,4 +30,11 @@
 .letter-container {
   width: 47%;
   margin: auto;
+}
+
+.letter-content p {
+  // background: #c4a9fc;
+  background: white;
+  padding: 5px;
+  display: inline-block;
 }

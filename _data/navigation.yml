@@ -1,15 +1,17 @@
 - name: POSTS CHANNEL
   link: /posts/
-- name: "LETTER FROM THE EDITOR"
+- name: LETTER FROM THE EDITOR
   link: /editorsletter/
 - name: INDEX OF THINGS USED
   link: /indexofthingsused/
 - name: DRAFT JUNKYARD
   link: /draftjunkyard/
+- name: JADE'S POV
+  link: /jadespov/
+- name: DROP A COMMENT
+  link: /dropacomment/
 - name: READER
   link: /reader/
-- name: LEAVE A NOTE
-  link: /leaveanote/
 - name: EXIT
   link: /
 # - name: COMMENT GALLERY

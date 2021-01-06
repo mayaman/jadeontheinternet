@@ -1,7 +1,5 @@
 ---
-layout: letter
 published: true
-imgPath: 2020NOVEMBER
 ---
 
 Hi!
@@ -32,4 +30,4 @@ xoxo,
 
 Editor @jadeontheinternet
 
-P.S. you decide you think you have an answer to this question, feel free to write a note [here](https://docs.google.com/document/d/1Wu6lgpbNWtLoXtVI4oWVXRxtE-kVW7BThtBS9H0dia0/edit?usp=sharing) or write something more private to us [here](mailto:jadeontheinternet@gmail.com?subject=Had%20to%20DM...).
+P.S. you decide you think you have an answer to this question, feel free to write a note [here](https://docs.google.com/document/d/1Wu6lgpbNWtLoXtVI4oWVXRxtE-kVW7BThtBS9H0dia0/edit?usp=sharing) or write something more private to us [here](mailto:jadeontheinternet@gmail.com?subject=Re%20Jade%20...).

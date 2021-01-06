@@ -1,0 +1,14 @@
+---
+layout: default
+permalink: /editorsletter/
+title: LETTER FROM THE EDITOR
+id: editorsletter
+---
+
+<div class="letter-thumbnails-container">
+    {% for letter in site.categories.letters limit:1 %}
+    <div class="letter-content">
+        {{ letter.content }}
+    </div>
+    {% endfor %}
+</div>

@@ -1,5 +1,5 @@
 /*~*~*~*~*~*~*~*~*~*~*
- * 🦋 DRAFTS
+ * 🦋 DRAFTS / POVS
  *~*~*~*~*~*~*~*~*~*~*/
 .draft-entry-container {
   display: block;
@@ -37,10 +37,23 @@ iframe.draft-embed:hover + .draft-caption {
   padding-top: 5px;
   color: black;
   text-align: center;
-  // text-shadow: 1px 1px 2px white, 0 0 25px #00c2dc, 0 0 5px #00c2dc;
-  // filter: drop-shadow(0 0 4mm hotpink);
 }
 
-hr {
-  border-top: 1px solid #7fedc9;
+/* FEED */
+.single-feed-video {
+  margin: auto;
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+}
+
+iframe.feed-embed {
+  max-width: 285px;
+  max-height: 620px;
+}
+
+.feed-caption {
+  padding-top: 5px;
+  color: black;
+  // text-align: center;
 }
