@@ -56,7 +56,7 @@ hair:
     videoLink: https://www.tiktok.com/@jadeontheinternet/video/6913249078012923142
     notes: These will hopefully last me a while.
 
-makeup:
+makeup/skincare:
   - name: 16HR Camo Concealer
     cost: 6.00
     brand: e.l.f.
@@ -119,6 +119,13 @@ makeup:
     from: Target
     videoLink: https://www.tiktok.com/@jadeontheinternet/video/6912911144730545413
     notes: Someone on the old Jade account said that Black eyeliner felt "a little harsh" so wanted to try out brown.
+
+  - name: Glowscreen
+    cost: 0.00
+    brand: Supergoop
+    from: A friend who works there
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6917366155921476869
+    notes: This brand feels like the Glossier of sunscreen products.
 
 clothing:
   - name: Padded up strapless bra
@@ -191,12 +198,34 @@ clothing:
     videoLink: https://www.tiktok.com/@jadeontheinternet/video/6914683401048001798
     notes: Tie dye is essential tiktok fashion.
 
+  - name: Pink Chinese apron top
+    cost: 22.50
+    brand: Zara
+    from: Pearl River Mart
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6915116671439064326
+    notes: When I bought this over a year ago the girl at the store said it's too sexy only ABC (American born Chinese) girls can wear them.
+
+  - name: Black biker shorts
+    cost: 14.95
+    brand: N/A
+    from: Amazon
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6917009811620039941
+    notes: Bought these a while ago... try not to buy from Amazon now.
+
   - name: Bright pink cardigan
     cost: 16.95
     brand: Zara
     from: Beacon's Closet
     videoLink: https://www.tiktok.com/@jadeontheinternet/video/6917009811620039941
     notes: This color really spoke to Jade.
+
+  - name: Light pink tub top
+    cost: 0.00
+    brand: HARA THE LABEL
+    from: MaryV
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6917366155921476869
+    notes: Fabric is very comfy.
+
   # - name: Gray rosa sweatpants
   #   cost: 30.00
   #   brand: Brandy Melville
@@ -209,3 +238,25 @@ clothing:
   #   from: Depop (@janelle_batiste)
   #   videoLink: TODO
   #   notes: Sassy type!
+
+services:
+  - name: 3 month eyebrow/lip threading membership
+    cost: 74.89
+    brand: N/A
+    from: Express Brows
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6913595348892093701
+    notes: You can see this in all the videos basically... I go around once every 2 weeks.
+
+  - name: Haircut
+    cost: 98.00
+    brand: N/A
+    from: Shizen Brooklyn
+    videoLink: TODO
+    notes: That's just for one haircut. No color. I do love this place though.
+
+  - name: Lash lift
+    cost: 52.00
+    brand: N/A
+    from: Express Brows
+    videoLink: TODO
+    notes: This is usually $65.00 but I had a pretty horrible experience and asked for a discount so they made it $45 + tip.

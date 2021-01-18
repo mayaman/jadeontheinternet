@@ -53,6 +53,7 @@
             </div>
             <div class="post-data drafts">
                 <span class="post-key">Select drafts:</span>
+                {% if page.drafts %}
                 <ul class="post-data-list references-list">
                     {% for draft in page.drafts %}
                     <li>
@@ -61,6 +62,9 @@
                     </li>
                     {% endfor %}
                 </ul>
+                {% else %}
+                N/A
+                {% endif %}
             </div>
         </div>
     </div>
