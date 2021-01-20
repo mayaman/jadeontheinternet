@@ -34,6 +34,20 @@ accessories:
     videoLink: https://www.tiktok.com/@jadeontheinternet/video/6913249078012923142
     notes: Found these on my last thanksgiving trip.
 
+  - name: Blue light glasses
+    cost: 0.00
+    brand: N/A
+    from: My boyfriend
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6919180351747198213
+    notes: My actual glasses are too distinct looking so borrowed these for Jade's pre-makeover look.
+
+  - name: Heart shaped earrings
+    cost: 7.99
+    brand: Claire's
+    from: Claire's
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6919180351747198213
+    notes: Adds to the extra extra "girly" look.
+
 hair:
   - name: Hair straightener
     cost: 0.00
@@ -226,18 +240,26 @@ clothing:
     videoLink: https://www.tiktok.com/@jadeontheinternet/video/6917366155921476869
     notes: Fabric is very comfy.
 
-  # - name: Gray rosa sweatpants
-  #   cost: 30.00
-  #   brand: Brandy Melville
-  #   from: Depop (@janelle_batiste)
-  #   videoLink: TODO
-  #   notes: Needed to invest in a semi cute pari of sweatpants
-  # - name: Pink "heaven sent" tank top
-  #   cost: 15.50
-  #   brand: Brandy Melville
-  #   from: Depop (@janelle_batiste)
-  #   videoLink: TODO
-  #   notes: Sassy type!
+  - name: Light gray zip up
+    cost: 0.00
+    brand: Nike
+    from: My boyfriend's closet
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6919180351747198213
+    notes: Used during the "not hot" part of the video.
+
+  - name: Pink "heaven sent" tank top
+    cost: 15.50
+    brand: Brandy Melville
+    from: Depop (@janelle_batiste)
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6919257425207889158
+    notes: This top really amps up Jade's cutesy vibe.
+
+  - name: Gray rosa sweatpants
+    cost: 30.00
+    brand: Brandy Melville
+    from: Depop (@janelle_batiste)
+    videoLink: https://www.tiktok.com/@jadeontheinternet/video/6919257425207889158
+    notes: Needed to invest in a semi cute pair of sweatpants
 
 services:
   - name: 3 month eyebrow/lip threading membership
