@@ -26,6 +26,7 @@ id: posts
 {%   assign secondsSince = today | minus: start     %}
 {%   assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
 {%   assign totalDays = hoursSince | divided_by: 24  %}
+{%   assign totalDays = totalDays | plus: 1  %}
 
 <div class="post-wrapper" style="margin-left: {{ random }}%;">
     <span class="post-index">
