@@ -17,7 +17,11 @@
         </div>
         <br>
         <div class="post-tiktok-link">
+            {% if page.archived %}
+            ☠️POST ARCHIVED, NO LONGER PUBLIC ON TIKTOK ☠️
+            {% else %}
             <a class="arrow-cursor" target="_blank" href="{{ page.tiktokLink }}">* LINK TO POST ON TIKTOK *</a>
+            {% endif %}
         </div>
         <div class="post-writing">
             {{ content }}
