@@ -4,15 +4,30 @@ permalink: /reader/
 title: READER
 id: reader
 ---
-<div class="reader-container">
+<div class="reference-container">
     {% include comingsoon.html %}
-    <div style="text-align: center;">
-        *** WORK IN PROGRESS *** An ongoing collection of things I have read/listened to that influence the way I
-        think about and approach this project.
-    </div>
     <ul>
-        {% for item in site.data.reader %}
-        <li class="reader-item"><a class="arrow-cursor" target="_blank" href="{{item.link}}">{{ item.title }}</a></li>
+        {% for type in site.data.reader %}
+        {% for object in type %}
+        {% for item in object %}
+        {% if item.title %}
+        <li class="reference-item"><a class="arrow-cursor reference-title" target="_blank" href="{{item.link}}">{{
+                item.title }}</a>
+            <br>
+            <span class="reference-from">{{item.from}}</span>
+            <br>
+            <br>
+            <div>
+                "{{ item.quote }}"
+            </div>
+        </li>
+        {% else %}
+        <div class="reference-type">{{ item | upcase }} </div>
+        {% endif %}
+
         {% endfor %}
+        {% endfor %}
+        {% endfor %}
+
     </ul>
 </div>

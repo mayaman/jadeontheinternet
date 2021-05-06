@@ -1,5 +1,7 @@
 ---
 ---
+{% include head.html %}
+
 <article id="{{ page.date | date: '%Y-%m-%d' }}" class="post">
     <div class="post-container">
         <div class="post-header">
@@ -18,7 +20,7 @@
         <br>
         <div class="post-tiktok-link">
             {% if page.archived %}
-            ☠️POST ARCHIVED, NO LONGER PUBLIC ON TIKTOK ☠️
+            ☠️ POST ARCHIVED, NOT AVAILABLE ON TIKTOK ☠️
             {% else %}
             <a class="arrow-cursor" target="_blank" href="{{ page.tiktokLink }}">* LINK TO POST ON TIKTOK *</a>
             {% endif %}

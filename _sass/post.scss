@@ -4,21 +4,35 @@
 
 .post-wrapper {
   margin: 0px 0px 150px 0px;
-  max-width: 500px;
+  max-width: 550px;
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+.post {
+  max-width: 550px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.post-index {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 812px) {
   .post-wrapper {
     max-width: 90%;
     margin: auto auto 150px auto !important;
     display: block;
   }
-}
 
-.post-index {
-  font-size: 3em;
-  font-weight: bold;
+  .post-index {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: bold;
+  }
 }
 
 .post-container {

@@ -16,7 +16,8 @@ a:hover, a:active { background-image: linear-gradient(to bottom, transparent 0.1
 
 .inner-container { margin: 50px 50px; }
 
-@media only screen and (max-width: 768px) { .inner-container { margin: 25px 10px; } }
+@media only screen and (max-width: 768px) { .inner-container { margin: 25px 10px; }
+  main { margin: 50px 5px; } }
 .comingsoon { font-size: 2em; font-weight: bold; color: black; text-align: center; width: 100%; }
 
 .splash-container { text-align: center; font-size: 48px; line-height: 72px; font-weight: bold; width: 100vw; height: 100vh; overflow: hidden; }
@@ -42,12 +43,18 @@ a.tiktok-link { cursor: alias; font-size: 1.5em; }
 
 .nav-dropdown { text-align: right; font-size: 1em; vertical-align: text-bottom; }
 
-@media only screen and (max-width: 768px) { .nav-dropdown { display: none; } }
+.menu-mobile { display: none; }
+
+@media only screen and (max-width: 768px) { nav { display: block; }
+  a.tiktok-link { cursor: alias; font-size: 24px; }
+  .menu-mobile { display: block; margin: 10px 0px 5px 0px; }
+  .current-page { display: none; }
+  .nav-dropdown { display: block; text-align: left; margin-top: 10px; } }
 .nav-dropdown:hover { cursor: pointer; }
 
 .nav-dropdown:hover > .nav-pages { display: block; }
 
-.nav-pages { display: none; position: relative; z-index: 9999; }
+.nav-pages { display: none; position: relative; margin-top: 5px; z-index: 9999; }
 
 .nav-pages a { color: black; margin: 5px 0px 5px 15px; vertical-align: text-bottom; display: block; text-decoration: none; font-size: 1em; display: inline-block; }
 
@@ -57,11 +64,14 @@ a.tiktok-link { cursor: alias; font-size: 1.5em; }
 #nav-butterfly { position: absolute; left: 50%; transform: translate(-50%, 0px); }
 
 /*~*~*~*~*~*~*~*~*~*~* 🦋 ON THE INTERNET  ~*~*~*~*~*~*~*~*~*~*/
-.post-wrapper { margin: 0px 0px 150px 0px; max-width: 500px; display: block; }
+.post-wrapper { margin: 0px 0px 150px 0px; max-width: 550px; display: block; }
 
-@media only screen and (max-width: 768px) { .post-wrapper { max-width: 90%; margin: auto auto 150px auto !important; display: block; } }
-.post-index { font-size: 3em; font-weight: bold; }
+.post { max-width: 550px; display: block; margin: auto; margin-bottom: 10px; }
 
+.post-index { font-size: 36px; line-height: 42px; font-weight: bold; }
+
+@media only screen and (max-width: 812px) { .post-wrapper { max-width: 90%; margin: auto auto 150px auto !important; display: block; }
+  .post-index { font-size: 36px; line-height: 42px; font-weight: bold; } }
 .post-container { background: #ffffff; padding: 15px; margin-top: 10px; }
 
 .post-header { margin-bottom: 15px; }
@@ -134,7 +144,11 @@ iframe.feed-embed { max-width: 285px; max-height: 620px; }
 
 img.comment { max-width: 100%; }
 
-.reader-item { margin: 50px 50px; font-size: 64px; line-height: 96px; }
+.reference-item { margin: 50px 50px; }
+
+.reference-title { font-size: 48px; line-height: 64px; font-weight: bold; font-style: italic; }
+
+.reference-type { font-size: 3em; font-weight: bold; }
 
 .letter-thumbnails-container { display: flex; flex-wrap: wrap; justify-content: space-evenly; max-width: 47%; position: relative; margin: auto; font-size: 1em; }
 
