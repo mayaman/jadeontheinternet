@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*~*~*~*~*~*~*~*~*~*~* 🦋 GLOBAL ~*~*~*~*~*~*~*~*~*~*/
-body { background-image: url("https://media.giphy.com/media/ELk3JbUHFexpK/giphy.gif"); background-attachment: fixed; background-repeat: no-repeat; background-size: cover; color: black; min-height: 100vh; margin: 0px; font-size: 18px; line-height: 24px; }
+body { background: hotpink; background-attachment: fixed; background-repeat: no-repeat; background-size: cover; color: black; min-height: 100vh; margin: 0px; font-size: 18px; line-height: 24px; }
 
 main { margin: 50px 50px; }
 
