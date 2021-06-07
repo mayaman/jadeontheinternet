@@ -6,7 +6,7 @@ id: reader
 ---
 <div class="reference-container">
     {% include comingsoon.html %}
-    <ul>
+    <!-- <ul>
         {% for type in site.data.reader %}
         {% for object in type %}
         {% for item in object %}
@@ -29,5 +29,13 @@ id: reader
         {% endfor %}
         {% endfor %}
 
-    </ul>
+    </ul> -->
+
+    {% for channel in site.data.channels %}
+
+    <li><a class="arrow-cursor reference-title" target="_blank" href="{{channel.link}}">{{
+            channel.title }}</a>
+    </li>
+    {% endfor %}
+
 </div>
