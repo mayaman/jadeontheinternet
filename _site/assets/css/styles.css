@@ -22,7 +22,7 @@ a:hover, a:active { color: #c4a9fc; }
   main { margin: 50px 5px; } }
 .comingsoon { font-size: 2em; font-weight: bold; color: black; text-align: center; width: 100%; }
 
-.splash-container { text-align: center; font-size: 48px; line-height: 72px; font-weight: bold; width: 100vw; height: 100vh; overflow: hidden; }
+.splash-container { text-align: center; font-size: 48px; line-height: 72px; font-weight: bold; width: 100vw; overflow: hidden; }
 
 .enter-button { padding: 5px; }
 
@@ -36,7 +36,7 @@ a:hover, a:active { color: #c4a9fc; }
 
 #enter a { text-decoration: none; }
 
-#splash-footer { position: absolute; width: 100%; bottom: 0; font-size: 24px; line-height: 24px; border-bottom: 0px; }
+#enter a:hover { color: black; }
 
 /*~*~*~*~*~*~*~*~*~*~* 🦋 NAV ~*~*~*~*~*~*~*~*~*~*/
 nav { display: flex; justify-content: space-between; font-weight: bold; padding: 15px; background: #ffffff75; border: 2px dotted black; }
@@ -192,3 +192,17 @@ img.comment { max-width: 100%; }
 #notes-google-doc { width: 100%; min-height: 75vh; border: none; }
 
 footer { margin-top: auto; background: white; padding-top: 4px; }
+
+.marquee { width: 100%; white-space: nowrap; overflow: hidden; box-sizing: border-box; font-style: normal; font-weight: 500; font-size: 21px; line-height: 31px; letter-spacing: 0.04em; text-transform: uppercase; margin-top: auto; }
+
+.marquee span { display: inline-block; padding-left: 100%; will-change: transform; animation: marquee 120s linear infinite; }
+
+.marquee span a { text-decoration: none; }
+
+.marquee span:hover { animation-play-state: paused; cursor: pointer; }
+
+@keyframes marquee { 0% { transform: translate(-30%, 0); }
+  100% { transform: translate(-75%, 0); } }
+/* Respect user preferences about animations */
+@media (prefers-reduced-motion: reduce) { .marquee { white-space: normal; }
+  .marquee span { animation-iteration-count: 1; animation-duration: 0.01; /* instead of animation: none, so an animationend event is  still available, if previously attached. */ padding-left: 0; } }
