@@ -50,9 +50,9 @@ id: posts
                 <br>
                 <br>
                 <div class="excerpt">
-                    hello world?
+                    it's me, jade.
 
-                    {{ post.excerpt }}
+                    {{ post.excerpt | truncatewords: 24 }}
                     <a href="{{ post.url }}">
                         *read more*
                     </a>
