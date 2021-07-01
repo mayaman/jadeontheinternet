@@ -79,7 +79,7 @@ button.active, button:hover { cursor: pointer; text-decoration: underline; }
 
 .post-teaser { display: flex; flex-direction: row; flex-wrap: wrap; width: 100%; align-items: flex-start; background-color: white; max-height: 360px; max-width: 500px; min-width: 500px; }
 
-.column { display: inline-block; flex-direction: column; flex-basis: 100%; flex: 1; max-height: 270px; }
+.column { display: inline-block; flex-direction: column; flex-basis: 100%; flex: 1; max-height: 280px; }
 
 #thumbnail-column { max-width: 150px; }
 
@@ -91,7 +91,7 @@ button.active, button:hover { cursor: pointer; text-decoration: underline; }
 
 .post-listing { background: white; margin: 10px 0px; display: inline-block; }
 
-img.thumbnail { width: 150px; height: 270px; object-fit: cover; }
+img.thumbnail { width: 150px; height: 280px; object-fit: cover; }
 
 a { display: inline-block; }
 

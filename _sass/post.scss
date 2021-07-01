@@ -45,7 +45,7 @@ button.active, button:hover {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  max-height: 270px;
+  max-height: 280px;
 }
 
 #thumbnail-column {
@@ -80,7 +80,7 @@ button.active, button:hover {
 
 img.thumbnail {
   width: 150px;
-  height: 270px;
+  height: 280px;
   object-fit: cover;
 }
 a {
