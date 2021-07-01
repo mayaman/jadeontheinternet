@@ -50,7 +50,8 @@ id: posts
                 <br>
                 <br>
                 <div class="excerpt">
-                    {{ post.excerpt | strip_html | truncatewords: 24 }}
+                    {{ post.excerpt | strip_html }}
+
                     <a href="{{ post.url }}">
                         *read more*
                     </a>
