@@ -1,0 +1,55 @@
+.splash-container {
+  text-align: center;
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: bold;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.enter-button {
+  padding: 5px;
+}
+
+.splash-cutout {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0px;
+  border: 2px dotted black;
+}
+
+.splash-cutout img,
+.splash-cutout video {
+  max-width: 100%;
+}
+
+#enter {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff75;
+  border: 2px dotted black;
+  padding: 15px;
+}
+
+#enter:hover {
+  background: #c4a9fc;
+}
+
+#enter a {
+  text-decoration: none;
+}
+
+#splash-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 24px;
+  line-height: 24px;
+  border-bottom: 0px;
+}

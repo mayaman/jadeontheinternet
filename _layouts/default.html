@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body {% if page.bgimages %}style="background-image: url({{ page.bgimage }})" {% endif %}>
+    <div class="inner-container">
+        {% include navigation.html %}
+        <main>
+            {{ content }}
+        </main>
+    </div>
+    {% include footer.html %}
+</body>
+
+</html>

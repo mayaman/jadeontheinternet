@@ -1,0 +1,23 @@
+---
+layout: default
+permalink: /letters/
+title: LETTERS FROM THE EDITOR
+id: letters
+---
+
+<div class="letter-thumbnails-container">
+    {% include comingsoon.html %}
+    {% for post in site.categories.letters %}
+    <div class="letter-thumbnail-container">
+        <a href="{{ post.url }}">
+            <img class="collage" src="/assets/images/collages/{{ post.imgPath }}.png" alt="">
+        </a>
+        <div class="letter-label">
+            <a href="{{ post.url }}">
+                <div class="letter-title">{{ post.title | uppercase }}</div>
+            </a>
+            <div class="letter-date">{{ post.date | date: '%B %Y'}}</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

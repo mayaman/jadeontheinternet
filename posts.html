@@ -1,0 +1,176 @@
+---
+layout: default
+permalink: /posts/
+title: POSTS CHANNEL
+id: posts
+---
+<div class="button-group filter-button-group">
+    <button class="button active" data-filter="*">ALL POSTS</button>
+    <button class="button" data-filter=".highlight">JUST THE HIGHLIGHTS</button>
+    <!-- {% for category in site.tags %}
+    <button class="button" data-filter=".{{ category | first }}">{{ category | first }}</button>
+    {% endfor %} -->
+</div>
+
+<div class="grid">
+    {% for post in site.categories.tiktok %}
+
+    {% assign day = post.date | date: "%d" %}
+    {% assign bigNum = day | plus: post.numFollowers %}
+    {% assign postTitleLength = post.headline | size %}
+    {% assign biggerNum = bigNum | plus: postTitleLength %}
+    {% assign random = biggerNum | modulo: 55 %}
+
+    {% assign value = forloop.index | modulo:2 %}
+    {% if value == 0 %}
+    {% assign push = random | plus: 40 %}
+
+    {% else %}
+    {% assign push = random %}
+    {% endif %}
+
+    {% assign today = post.date | date: '%s' %}
+    {% assign start = '01-01-2021' | date: '%s' %}
+    {% assign secondsSince = today | minus: start %}
+    {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
+    {% assign totalDays = hoursSince | divided_by: 24 %}
+    {% assign totalDays = totalDays | plus: 1 %}
+
+
+    <div class="element-item {{ post.tags | join: ' ' }} post-wrapper" style="margin-left: {{ random }}%;">
+        <span class="post-index">
+            {% assign postTitle = post.title | split: ' ' %}
+            🦋 DAY {{totalDays}} {% if postTitle[1] %} * {{ postTitle[1] }} {% endif %}
+        </span>
+        <br>
+        <div class="post-teaser">
+            <div class="column" id="thumbnail-column">
+                <img class="thumbnail" src="//img.youtube.com/vi/{{ post.youtubeID }}/0.jpg">
+            </div>
+            <div class="column" id="text-column">
+                <a class="post-headline" href="{{ post.url }}">
+                    {{ post.headline | upcase }}
+                </a>
+                <br>
+                <br>
+                <div class="excerpt">
+                    {{ post.excerpt | strip_html | truncatewords: 24 }}
+                    <a href="{{ post.url }}">
+                        *read more*
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="element-item {{ post.tags | first }}">
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+
+        <p>
+            {{ post.excerpt }}
+        </p>
+    </div> -->
+    {% endfor %}
+</div>
+
+<script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
+<script>
+    // init Isotope
+    var $grid = $('.grid').isotope({
+        // options
+    });
+
+    // filter items on button click
+    $('.filter-button-group').on('click', 'button', function () {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+    });
+
+    $('.button-group button.button').on('click', function () {
+        $('.button-group button.button').removeClass('active');
+        $(this).addClass('active');
+    });
+</script>
+
+<!-- {% for post in site.categories.tiktok limit:10 %}
+{% if post.tags contains "highlight" %}
+
+{% assign day = post.date | date: "%d" %}
+{% assign bigNum = day | plus: post.numFollowers %}
+{% assign postTitleLength = post.headline | size %}
+{% assign biggerNum = bigNum | plus: postTitleLength %}
+{% assign random = biggerNum | modulo: 55 %}
+
+{% assign value = forloop.index | modulo:2 %}
+{% if value == 0 %}
+{% assign push = random | plus: 40 %}
+
+{% else %}
+{% assign push = random %}
+{% endif %}
+
+{% assign today = post.date | date: '%s' %}
+{% assign start = '01-01-2021' | date: '%s' %}
+{% assign secondsSince = today | minus: start %}
+{% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
+{% assign totalDays = hoursSince | divided_by: 24 %}
+{% assign totalDays = totalDays | plus: 1 %}
+
+
+<div class="post-wrapper" style="margin-left: {{ random }}%;">
+    <span class="post-index">
+        {% assign postTitle = post.title | split: ' ' %}
+        🦋 DAY {{totalDays}} {% if postTitle[1] %} * {{ postTitle[1] }} {% endif %}
+    </span>
+    <br>
+    <div class="post-teaser">
+        <div class="column" id="thumbnail-column">
+            <img class="thumbnail" src="//img.youtube.com/vi/{{ post.youtubeID }}/0.jpg">
+        </div>
+        <div class="column" id="text-column">
+            <a href="{{ post.url }}">
+                {{ post.headline }}
+            </a>
+            {{ post.excerpt | truncate: 350 }}
+            <br>
+            <a href="{{ post.url }}">
+                Read more...
+            </a>
+        </div>
+    </div>
+</div>
+
+{% endif %}
+{% endfor %} -->
+
+<!-- <h1>ALL POSTS:</h1>
+
+(okay will be working on a site redesign soon, but in the meantime listing these like this to improve the site's load
+time)
+
+<div class="all-posts-container">
+    <br>
+    {% for post in site.categories.tiktok %}
+
+    {% assign today = post.date | date: '%s' %}
+    {% assign start = '01-01-2021' | date: '%s' %}
+    {% assign secondsSince = today | minus: start %}
+    {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
+    {% assign totalDays = hoursSince | divided_by: 24 %}
+    {% assign totalDays = totalDays | plus: 1 %}
+    <div class="post-listing">
+        🦋 DAY {{totalDays}} {% if postTitle[1] %} * {{ postTitle[1] }} {% endif %}
+        <br>
+        {{ post.date | date: '%B %d, %Y' }}
+        <br>
+        <a href="{{ post.url }}">{{ post.headline | upcase }}</a>
+    </div>
+    <br>
+    {% endfor %}
+</div> -->

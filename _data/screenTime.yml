@@ -1,0 +1,29 @@
+- startDate: 2020-12-27
+  endDate: 2021-01-02
+  totalHours: 15
+  totalMinutes: 47
+  totalInMinutes: 947
+
+- startDate: 2021-01-03
+  endDate: 2021-01-09
+  totalHours: 15
+  totalMinutes: 35
+  totalInMinutes: 935
+
+- startDate: 2021-01-10
+  endDate: 2021-01-16
+  totalHours: 8
+  totalMinutes: 29
+  totalInMinutes: 509
+
+- startDate: 2021-01-17
+  endDate: 2021-01-23
+  totalHours: 12
+  totalMinutes: 45
+  totalInMinutes: 765
+
+- startDate: 2021-01-24
+  endDate: 2021-01-30
+  totalHours: 12
+  totalMinutes: 27
+  totalInMinutes: 747

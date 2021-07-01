@@ -1,0 +1,91 @@
+---
+---
+
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body {% if page.bgimages %}style="background-image: url({{ page.bgimage }})" {% endif %}>
+    <div class="inner-container">
+        {% include navigation.html %}
+        <main>
+
+            <article id="{{ page.date | date: '%Y-%m-%d' }}" class="post">
+                <div class="post-container">
+                    <div class="post-header">
+                        <h2>{{ page.headline | upcase }}</h2>
+                        <time>{{ page.date | date: '%B %d, %Y' }} </time>
+                    </div>
+            
+                    <div class="post-col-container">
+                        <div class="post-col post-youtube-embed">
+                            <iframe loading="lazy" width="560" height="315"
+                                src="https://www.youtube-nocookie.com/embed/{{ page.youtubeID }}" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="post-tiktok-link">
+                        {% if page.archived %}
+                        ☠️ POST ARCHIVED, NOT AVAILABLE ON TIKTOK ☠️
+                        {% else %}
+                        <a class="arrow-cursor" target="_blank" href="{{ page.tiktokLink }}">* LINK TO POST ON TIKTOK *</a>
+                        {% endif %}
+                    </div>
+                    <div class="post-writing">
+                        {{ content }}
+                    </div>
+                    <div class="post-col post-data-container">
+                        <div class="post-data num-followers">
+                            <span class="post-key">Total number of followers when posted:</span>
+                            <data>{{ page.numFollowers }}</data>
+                        </div>
+                        <div class="post-data num-likes">
+                            <span class="post-key">Total number of likes when posted:</span> <data>{{ page.numLikes }}</data>
+                        </div>
+                        <div class="post-data references">
+                            <span class="post-key">References:</span>
+                            <ul class="post-data-list references-list">
+                                {% for ref in page.references %}
+                                {% assign splitlink = ref | split: '@' %}
+                                {% assign handle = splitlink[1] | split: '/' %}
+                                <li>
+                                    <a class="arrow-cursor" target="_blank" href="{{ ref }}">@{{ handle[0] }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <div class="post-data filters">
+                            <span class="post-key">Filters/effects:</span>
+                            <ul class="post-data-list filter-list">
+                                {% for filter in page.filters %}
+                                <li>{{ filter }}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <div class="post-data drafts">
+                            <span class="post-key">Select drafts:</span>
+                            {% if page.drafts %}
+                            <ul class="post-data-list references-list">
+                                {% for draft in page.drafts %}
+                                <li>
+                                    <a class="arrow-cursor" target="_blank"
+                                        href="https://www.youtube.com/watch?v={{ draft.id }}">{{draft.caption}}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            {% else %}
+                            N/A
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </article>        </main>
+        {% include footer.html %}
+    </div>
+</body>
+
+</html>

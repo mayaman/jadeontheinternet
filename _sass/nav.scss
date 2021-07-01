@@ -1,0 +1,106 @@
+/*~*~*~*~*~*~*~*~*~*~*
+ * 🦋 NAV
+ *~*~*~*~*~*~*~*~*~*~*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 15px;
+  background: #ffffff75;
+  border: 2px dotted black;
+}
+
+a.tiktok-link {
+  cursor: alias;
+  font-size: 1.5em;
+}
+
+.nav-dropdown {
+  text-align: right;
+  font-size: 1em;
+  vertical-align: text-bottom;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    display: block;
+  }
+
+  a.tiktok-link {
+    cursor: alias;
+    font-size: 24px;
+  }
+
+  .menu-mobile {
+    display: block;
+    margin: 10px 0px 5px 0px;
+  }
+
+  .current-page {
+    display: none;
+  }
+
+  .nav-dropdown {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+  }
+}
+
+.nav-dropdown:hover {
+  cursor: pointer;
+}
+
+.nav-dropdown:hover > .nav-pages {
+  display: block;
+}
+
+.nav-pages {
+  display: none;
+  position: relative;
+  margin-top: 5px;
+  z-index: 9999;
+}
+
+.nav-pages a {
+  color: black;
+  margin: 5px 0px 5px 15px;
+  vertical-align: text-bottom;
+  display: block;
+  text-decoration: none;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.nav-pages a:hover,
+a:active {
+  color: #c4a9fc;
+  // background-image: linear-gradient(
+  //   to bottom,
+  //   transparent 0.19em,
+  //   #c4a9fc 0.19em,
+  //   #c4a9fc 0.91em,
+  //   transparent 0.91em
+  // );
+}
+
+nav a.current {
+  // background: #c4a9fc;
+}
+
+@media only screen and (max-width: 768px) {
+  nav span {
+    font-size: 0.75em;
+    display: block;
+  }
+}
+
+#nav-butterfly {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0px);
+}

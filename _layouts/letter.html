@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body {% if page.bgimages %}style="background-image: url({{ page.bgimage }})" {% endif %}>
+    <div class="inner-container">
+        {% include letternavigation.html %}
+        <main>
+            <div class="letter-container">
+                <img class="collage" src="/assets/images/collages/{{ page.imgPath }}.png" alt="">
+                <div class="letter-title">{{ page.title | uppercase }}</div>
+                <div class="letter-date">{{ page.date | date: '%B %Y'}}</div>
+                <br>
+                *
+                {{ content }}
+            </div>
+        </main>
+        {% include footer.html %}
+    </div>
+</body>
+
+</html>

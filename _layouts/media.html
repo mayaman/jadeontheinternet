@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+
+{% include head.html %}
+
+<body {% if page.bgimages %}style="background-image: url({{ page.bgimage }})" {% endif %}>
+    <div style="display: block; margin: 0px">
+        {{ content }}
+    </div>
+</body>
+
+</html>

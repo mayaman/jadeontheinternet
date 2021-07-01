@@ -1,0 +1,88 @@
+/*~*~*~*~*~*~*~*~*~*~*
+ * 🦋 GLOBAL
+ *~*~*~*~*~*~*~*~*~*~*/
+body {
+  // background-image: url("https://media.giphy.com/media/IQnw7YeJWjYha/giphy.gif");
+
+  // COLLAGE BUTTERFLY
+  // background: hotpink;
+  // background-image: url("http://pm1.narvii.com/6801/7da5950af440fc4f5b277c7c509d6c8139b78713v2_00.jpg");
+  // background-image: url("https://media.giphy.com/media/ELk3JbUHFexpK/giphy.gif");
+  background-image: url("https://s8.favim.com/orig/150714/aesthetic-artsy-blue-sky-clouds-Favim.com-2958669.jpg");
+  background-attachment: fixed;
+  // background: radial-gradient(
+  //   rgba(255, 186, 255, 1),
+  //   rgba(208, 127, 255, 1),
+  //   rgba(196, 169, 252, 1),
+  //   rgba(255, 105, 180, 1)
+  // );
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  min-height: 100vh;
+  margin: 0px;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin: 50px 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+a {
+  color: black;
+}
+
+a.arrow-cursor:hover {
+  cursor: alias;
+}
+
+::selection {
+  background: #c4a9fc;
+}
+
+a:hover,
+a:active {
+  color: #c4a9fc;
+  // background-image: linear-gradient(
+  //   to bottom,
+  //   transparent 0.19em,
+  //   #c4a9fc 0.19em,
+  //   #c4a9fc 0.91em,
+  //   transparent 0.91em
+  // );
+}
+
+.inner-container {
+  margin: 50px 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .inner-container {
+    margin: 25px 10px;
+  }
+
+  main {
+    margin: 50px 5px;
+  }
+}
+
+.comingsoon {
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  width: 100%;
+}

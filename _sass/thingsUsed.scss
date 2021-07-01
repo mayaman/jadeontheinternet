@@ -1,0 +1,71 @@
+.things-used-container {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.table-container {
+  height: 70vh;
+  overflow: scroll;
+  // border: 2px solid #7fedc9;
+}
+
+// table thead tr {
+//   display: block;
+// }
+
+// table th,
+// table td {
+//   width: fit-content; //fixed width
+// }
+
+// table tbody {
+//   display: block;
+//   height: 500px;
+//   overflow: auto; //set tbody to auto
+// }
+
+#thingsused-table {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+#thingsused-table td,
+#thingsused-table th {
+  border: 1px dashed black;
+  padding: 15px;
+  margin: 50px 0px;
+  background: white;
+}
+
+#thingsused-table th {
+  background: #c4a9fc;
+}
+
+#thingsused-table td {
+  //   background: white;
+}
+
+#thingsused-table td img {
+  width: 50px;
+}
+
+.cost-stat {
+  width: fit-content;
+  padding: 30px;
+  margin: 15px 30px 0 0;
+  font-weight: bold;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#total-cost {
+  background: lightpink;
+}
+
+#money-made {
+  background: lightblue;
+}

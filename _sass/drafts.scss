@@ -1,0 +1,59 @@
+/*~*~*~*~*~*~*~*~*~*~*
+ * 🦋 DRAFTS / POVS
+ *~*~*~*~*~*~*~*~*~*~*/
+.draft-entry-container {
+  display: block;
+  margin: auto;
+  max-width: 80%;
+}
+
+.draft-video-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.single-draft-video {
+  margin: 15px 30px;
+}
+
+iframe.draft-embed {
+  max-width: 175px;
+}
+
+iframe.draft-embed:hover + .draft-caption {
+  // visibility: visible;
+  opacity: 1;
+}
+
+.draft-caption:hover {
+  opacity: 1;
+}
+
+.draft-caption {
+  max-width: 175px;
+  opacity: 0;
+  font-size: 0.8em;
+  padding-top: 5px;
+  color: black;
+  text-align: center;
+}
+
+/* FEED */
+.single-feed-video {
+  margin: auto;
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+}
+
+iframe.feed-embed {
+  max-width: 285px;
+  max-height: 620px;
+}
+
+.feed-caption {
+  padding-top: 5px;
+  color: black;
+  // text-align: center;
+}
