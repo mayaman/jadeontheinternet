@@ -17,7 +17,7 @@
                         <h2>{{ page.headline | upcase }}</h2>
                         <time>{{ page.date | date: '%B %d, %Y' }} </time>
                     </div>
-            
+
                     <div class="post-col-container">
                         <div class="post-col post-youtube-embed">
                             <iframe loading="lazy" width="560" height="315"
@@ -31,7 +31,8 @@
                         {% if page.archived %}
                         ☠️ POST ARCHIVED, NOT AVAILABLE ON TIKTOK ☠️
                         {% else %}
-                        <a class="arrow-cursor" target="_blank" href="{{ page.tiktokLink }}">* LINK TO POST ON TIKTOK *</a>
+                        <a class="arrow-cursor" target="_blank" href="{{ page.tiktokLink }}">* LINK TO POST ON TIKTOK
+                            *</a>
                         {% endif %}
                     </div>
                     <div class="post-writing">
@@ -43,7 +44,8 @@
                             <data>{{ page.numFollowers }}</data>
                         </div>
                         <div class="post-data num-likes">
-                            <span class="post-key">Total number of likes when posted:</span> <data>{{ page.numLikes }}</data>
+                            <span class="post-key">Total number of likes when posted:</span> <data>{{ page.numLikes
+                                }}</data>
                         </div>
                         <div class="post-data references">
                             <span class="post-key">References:</span>
@@ -83,9 +85,11 @@
                         </div>
                     </div>
                 </div>
-            </article>        </main>
-        {% include footer.html %}
+            </article>
+        </main>
     </div>
+    {% include footer.html %}
+
 </body>
 
 </html>

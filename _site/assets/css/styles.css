@@ -14,6 +14,8 @@ a.arrow-cursor:hover { cursor: alias; }
 
 a:hover, a:active { color: #c4a9fc; }
 
+.italics { font-style: italic; }
+
 .inner-container { margin: 50px 50px; }
 
 @media only screen and (max-width: 768px) { .inner-container { margin: 25px 10px; }

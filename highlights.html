@@ -1,0 +1,75 @@
+---
+layout: default
+permalink: /highlights/
+title: HIGHLIGHTS
+id: posts
+---
+
+{% include postfilter.html %}
+
+<ul class="grid">
+    {% for post in site.categories.tiktok %}
+    {% if post.tags contains "highlight" %}
+
+    {% assign day = post.date | date: "%d" %}
+    {% assign bigNum = day | plus: post.numFollowers %}
+    {% assign postTitleLength = post.headline | size %}
+    {% assign biggerNum = bigNum | plus: postTitleLength %}
+    {% assign random = biggerNum | modulo: 55 %}
+
+    {% assign value = forloop.index | modulo:2 %}
+    {% if value == 0 %}
+    {% assign push = random | plus: 40 %}
+
+    {% else %}
+    {% assign push = random %}
+    {% endif %}
+
+    {% assign today = post.date | date: '%s' %}
+    {% assign start = '01-01-2021' | date: '%s' %}
+    {% assign secondsSince = today | minus: start %}
+    {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
+    {% assign totalDays = hoursSince | divided_by: 24 %}
+    {% assign totalDays = totalDays | plus: 1 %}
+
+
+    <li class="element-item {{ post.tags | join: ' ' }} post-wrapper">
+        <span class="post-index">
+            {% assign postTitle = post.title | split: ' ' %}
+            🦋 DAY {{totalDays}} {% if postTitle[1] %} * {{ postTitle[1] }} {% endif %}
+        </span>
+        <br>
+        <div class="post-teaser">
+            <div class="column" id="thumbnail-column">
+                <img class="thumbnail" src="//img.youtube.com/vi/{{ post.youtubeID }}/0.jpg">
+            </div>
+            <div class="column" id="text-column">
+                <a class="post-headline" href="{{ post.url }}">
+                    {{ post.headline | upcase }}
+                </a>
+                <br>
+                <br>
+                <div class="excerpt">
+                    {{ post.excerpt | strip_html | truncatewords: 24 }}
+                    <a href="{{ post.url }}">
+                        *read more*
+                    </a>
+                </div>
+            </div>
+        </div>
+    </li>
+    <!-- <div class="element-item {{ post.tags | first }}">
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+
+        <p>
+            {{ post.excerpt }}
+        </p>
+    </div> -->
+    {% endif %}
+
+    {% endfor %}
+</ul>

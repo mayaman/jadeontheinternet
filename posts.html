@@ -4,13 +4,9 @@ permalink: /posts/
 title: POSTS CHANNEL
 id: posts
 ---
-<div class="button-group filter-button-group">
-    <button class="button active" data-filter="*">ALL POSTS</button>
-    <button class="button" data-filter=".highlight">JUST THE HIGHLIGHTS</button>
-    <!-- {% for category in site.tags %}
-    <button class="button" data-filter=".{{ category | first }}">{{ category | first }}</button>
-    {% endfor %} -->
-</div>
+
+{% include postfilter.html %}
+
 
 <div class="grid">
     {% for post in site.categories.tiktok %}

@@ -1,0 +1,45 @@
+---
+layout: default
+permalink: /allposts/
+title: ALL POSTS
+id: allposts
+---
+
+{% include postfilter.html %}
+
+<div class="grid">
+    {% for post in site.categories.tiktok %}
+
+    {% assign day = post.date | date: "%d" %}
+    {% assign bigNum = day | plus: post.numFollowers %}
+    {% assign postTitleLength = post.headline | size %}
+    {% assign biggerNum = bigNum | plus: postTitleLength %}
+    {% assign random = biggerNum | modulo: 55 %}
+
+    {% assign value = forloop.index | modulo:2 %}
+    {% if value == 0 %}
+    {% assign push = random | plus: 40 %}
+
+    {% else %}
+    {% assign push = random %}
+    {% endif %}
+
+    {% assign today = post.date | date: '%s' %}
+    {% assign start = '01-01-2021' | date: '%s' %}
+    {% assign secondsSince = today | minus: start %}
+    {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
+    {% assign totalDays = hoursSince | divided_by: 24 %}
+    {% assign totalDays = totalDays | plus: 1 %}
+
+
+    <div class="element-item {{ post.tags | first }}">
+        <span> 🦋 DAY {{totalDays}} {% if postTitle[1] %} * {{ postTitle[1] }} {% endif %}
+        </span>
+        <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.headline | upcase }}</a>
+        </h2>
+        <span class="italics post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </div>
+<br>
+    {% endfor %}
+</div>
