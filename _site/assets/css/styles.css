@@ -97,8 +97,8 @@ a { display: inline-block; }
 
 a:hover, a:active { color: #c4a9fc; }
 
-@media only screen and (max-width: 812px) { .post-wrapper { max-width: 90%; margin: auto auto 150px auto !important; display: block; }
-  .post-index { font-size: 36px; line-height: 42px; font-weight: bold; } }
+@media only screen and (max-width: 812px) { .post-wrapper { max-width: 90%; margin: 15px auto 15px auto !important; display: block; transform: scale(0.5) translate(-25%, 0); }
+  .post-index { font-size: 18px; line-height: 36px; font-weight: bold; } }
 .post-container { background: #ffffff; padding: 15px; margin-top: 10px; }
 
 .post-header { margin-bottom: 15px; }

@@ -102,13 +102,15 @@ a:active {
 @media only screen and (max-width: 812px) {
   .post-wrapper {
     max-width: 90%;
-    margin: auto auto 150px auto !important;
+    margin: 15px auto 15px auto !important;
     display: block;
+    transform: scale(0.5) translate(-25%, 0);
   }
 
+
   .post-index {
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 18px;
+    line-height: 36px;
     font-weight: bold;
   }
 }
