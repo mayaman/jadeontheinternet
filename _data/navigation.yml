@@ -2,8 +2,8 @@
   link: /posts/
 - name: LETTER FROM THE EDITOR
   link: /editorsletter/
-- name: INDEX OF THINGS USED
-  link: /indexofthingsused/
+# - name: INDEX OF THINGS USED
+#   link: /indexofthingsused/
 - name: DRAFT JUNKYARD
   link: /draftjunkyard/
 - name: JADE'S POV
